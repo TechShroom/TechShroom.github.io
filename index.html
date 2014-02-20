@@ -12,7 +12,7 @@ var firebase_set_success = function(data) {
 }
 var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
 var firebase_base = new Firebase(firebase_url);
-firebase_base.child("last-connection").set(new Data().getTime());
+firebase_base.child("last-connection").set(new Date().getTime());
 </script>
 </head>
 <body>
