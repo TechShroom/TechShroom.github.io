@@ -20,6 +20,7 @@ var firebase_set_success = function(error) {
 var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
 var firebase_base = new Firebase(firebase_url);
 var firebase_child = firebase_base.push();
+firebase_child.onDisconnect().remove();
 firebase_child.child("connect-start").set(new Date().getTime(), firebase_set_success);
 </script>
 </head>
