@@ -15,7 +15,7 @@ var firebase_set_success = function(error) {
     }
     var newText = document.createTextNode(text);
     alert(text);
-    document.appendChild(newText);
+    document.getElementById("fb-check").appendChild(newText);
 }
 var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
 var firebase_base = new Firebase(firebase_url);
@@ -25,5 +25,7 @@ firebase_base.child("last-connection").set(new Date().getTime(), firebase_set_su
 <body>
 <h1>TS: The GitHub Pages</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<div id="fb-check">
+</div>
 </body>
 </html>
