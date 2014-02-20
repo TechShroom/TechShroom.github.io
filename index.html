@@ -13,13 +13,14 @@ var firebase_set_success = function(error) {
     } else {
         text = "Success.";
     }
-    var newText = document.createTextNode(text);
+    var newText = document.createTextNode(text + " " + firebase_child);
     alert(text);
     document.getElementById("fb-check").appendChild(newText);
 }
 var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
 var firebase_base = new Firebase(firebase_url);
-firebase_base.child("last-connection").set(new Date().getTime(), firebase_set_success);
+var firebase_child = firebase_base.push();
+firebase_child.child("connect-start").set(new Date().getTime());
 </script>
 </head>
 <body>
