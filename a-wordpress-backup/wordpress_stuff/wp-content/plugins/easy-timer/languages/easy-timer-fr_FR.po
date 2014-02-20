@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Timer 3.6.4\n"
+"Report-Msgid-Bugs-To: http://www.kleor.com/easy-timer\n"
+"POT-Creation-Date: 2010-04-28 00:00+0000\n"
+"PO-Revision-Date: 2014-02-09 10:09+0100\n"
+"Last-Translator: Kleor <contact@kleor.com>\n"
+"Language-Team: Kleor <contact@kleor.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+
+msgid "Allows you to easily display a count down/up timer, the time or the current date on your website, and to schedule an automatic content modification."
+msgstr "Vous permet d'afficher facilement un compteur de temps restant/passé, l'heure ou la date sur votre site Web, et de programmer une modification automatique de contenu."
+
+#: admin.php:15
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: admin.php:17
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: admin.php:18
+#: options-page.php:44
+msgid "Options"
+msgstr "Options"
+
+#: admin.php:27
+#: options-page.php:40
+msgid "Documentation"
+msgstr "Documentation"
+
+#: languages/index.php:3
+msgid "no"
+msgstr "non"
+
+#: languages/index.php:4
+msgid "yes"
+msgstr "oui"
+
+#: options-page.php:7
+msgid "Options reset."
+msgstr "Options réinitialisées."
+
+#: options-page.php:7
+msgid "Options deleted."
+msgstr "Options supprimées."
+
+#: options-page.php:13
+msgid "Do you really want to reset the options of Easy Timer?"
+msgstr "Souhaitez-vous vraiment réinitialiser les options d'Easy Timer&nbsp;?"
+
+#: options-page.php:14
+msgid "Do you really want to permanently delete the options of Easy Timer?"
+msgstr "Souhaitez-vous vraiment supprimer définitivement les options d'Easy Timer&nbsp;?"
+
+#: options-page.php:15
+msgid "Yes"
+msgstr "Oui"
+
+#: options-page.php:43
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: options-page.php:47
+#: options-page.php:55
+msgid "The"
+msgstr "Le shortcode"
+
+#: options-page.php:47
+#: options-page.php:55
+msgid "shortcode is equivalent to"
+msgstr "est équivalent à"
+
+msgid "shortcode is equivalent to:"
+msgstr "est équivalent à&nbsp;:"
+
+#: options-page.php:52
+#: options-page.php:56
+msgid "More informations"
+msgstr "Plus d'informations"
+
+#: options-page.php:56
+msgid "Cookies lifetime (used for relative dates):"
+msgstr "Durée de vie des cookies (utilisée pour les dates relatives)&nbsp;:"
+
+#: options-page.php:56
+#: shortcodes.php:148
+#: shortcodes.php:278
+msgid "days"
+msgstr "jours"
+
+#: options-page.php:57
+msgid "Add JavaScript code"
+msgstr "Ajouter le code JavaScript"
+
+#: options-page.php:58
+msgid "If you uncheck this box, Easy Timer will never add any JavaScript code to the pages of your website, but your count up/down timers will not refresh."
+msgstr "Si vous décochez cette case, Easy Timer n'ajoutera jamais de code JavaScript aux pages de votre site Web, mais vos compteurs ne se rafraîchiront pas."
+
+#: options-page.php:59
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: shortcodes.php:143
+#: shortcodes.php:273
+msgid "0 second"
+msgstr "0 seconde"
+
+#: shortcodes.php:144
+#: shortcodes.php:274
+msgid "1 day"
+msgstr "1 jour"
+
+#: shortcodes.php:145
+#: shortcodes.php:275
+msgid "1 hour"
+msgstr "1 heure"
+
+#: shortcodes.php:146
+#: shortcodes.php:276
+msgid "1 minute"
+msgstr "1 minute"
+
+#: shortcodes.php:147
+#: shortcodes.php:277
+msgid "1 second"
+msgstr "1 seconde"
+
+#: shortcodes.php:149
+#: shortcodes.php:279
+msgid "hours"
+msgstr "heures"
+
+#: shortcodes.php:150
+#: shortcodes.php:280
+msgid "minutes"
+msgstr "minutes"
+
+#: shortcodes.php:151
+#: shortcodes.php:281
+msgid "seconds"
+msgstr "secondes"
+
+#: shortcodes.php:154
+#: shortcodes.php:166
+#: shortcodes.php:219
+#: shortcodes.php:231
+msgid "DECEMBER"
+msgstr "D&Eacute;CEMBRE"
+
+#: shortcodes.php:155
+#: shortcodes.php:220
+msgid "JANUARY"
+msgstr "JANVIER"
+
+#: shortcodes.php:156
+#: shortcodes.php:221
+msgid "FEBRUARY"
+msgstr "F&Eacute;VRIER"
+
+#: shortcodes.php:157
+#: shortcodes.php:222
+msgid "MARCH"
+msgstr "MARS"
+
+#: shortcodes.php:158
+#: shortcodes.php:223
+msgid "APRIL"
+msgstr "AVRIL"
+
+#: shortcodes.php:159
+#: shortcodes.php:224
+msgid "MAY"
+msgstr "MAI"
+
+#: shortcodes.php:160
+#: shortcodes.php:225
+msgid "JUNE"
+msgstr "JUIN"
+
+#: shortcodes.php:161
+#: shortcodes.php:226
+msgid "JULY"
+msgstr "JUILLET"
+
+#: shortcodes.php:162
+#: shortcodes.php:227
+msgid "AUGUST"
+msgstr "AO&Ucirc;T"
+
+#: shortcodes.php:163
+#: shortcodes.php:228
+msgid "SEPTEMBER"
+msgstr "SEPTEMBRE"
+
+#: shortcodes.php:164
+#: shortcodes.php:229
+msgid "OCTOBER"
+msgstr "OCTOBRE"
+
+#: shortcodes.php:165
+#: shortcodes.php:230
+msgid "NOVEMBER"
+msgstr "NOVEMBRE"
+
+#: shortcodes.php:169
+#: shortcodes.php:176
+#: shortcodes.php:423
+#: shortcodes.php:430
+msgid "SUNDAY"
+msgstr "DIMANCHE"
+
+#: shortcodes.php:170
+#: shortcodes.php:424
+msgid "MONDAY"
+msgstr "LUNDI"
+
+#: shortcodes.php:171
+#: shortcodes.php:425
+msgid "TUESDAY"
+msgstr "MARDI"
+
+#: shortcodes.php:172
+#: shortcodes.php:426
+msgid "WEDNESDAY"
+msgstr "MERCREDI"
+
+#: shortcodes.php:173
+#: shortcodes.php:427
+msgid "THURSDAY"
+msgstr "JEUDI"
+
+#: shortcodes.php:174
+#: shortcodes.php:428
+msgid "FRIDAY"
+msgstr "VENDREDI"
+
+#: shortcodes.php:175
+#: shortcodes.php:429
+msgid "SATURDAY"
+msgstr "SAMEDI"
+
+msgid "Display a countdown timer"
+msgstr "Afficher un compteur de temps restant"
+
+msgid "Display the time or the date"
+msgstr "Afficher l'heure ou la date"
+
+msgid "Hide this box"
+msgstr "Cacher cette boîte"
+
+msgid "Delete the options of Easy Timer"
+msgstr "Supprimer les options d'Easy Timer"
+
+msgid "Reset the options of Easy Timer"
+msgstr "Réinitialiser les options d'Easy Timer"
+
+msgid "Delete the options of Easy Timer for all sites in this network"
+msgstr "Supprimer les options d'Easy Timer pour tous les sites de ce réseau"
+
+msgid "Do you really want to permanently delete the options of Easy Timer for all sites in this network?"
+msgstr "Souhaitez-vous vraiment supprimer définitivement les options d'Easy Timer pour tous les sites de ce réseau&nbsp;?"
+

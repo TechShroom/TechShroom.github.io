@@ -1,0 +1,47 @@
+<body>
+<script>
+function genABAB() {
+    listOut = []
+    document.getElementById("output").innerHTML = listOut.join()
+    for (var i = 1000; i < 10000; i++) {
+        stri = i.toString()
+        stri = stri.substring(0, 2)
+        ab = parseInt(stri)
+        abab = ab + ab * 100
+        if (i != abab) {
+            continue;
+        }
+        for (var c = 0; c < 100; c++) {
+            for (var d = 0; d < 100; d++) {
+                if (c * c + d * d == i) {
+                    listOut = listOut.concat([
+                        [c, d, i]
+                    ])
+                }
+            }
+        }
+    }
+    var table = document.createElement("table");
+    var title = table.insertRow(-1);
+    var cpow2 = title.insertCell(-1);
+    var dpow2 = title.insertCell(-1);
+    var abab = title.insertCell(-1);
+    cpow2.appendChild(document.createTextNode("c"));
+    dpow2.appendChild(document.createTextNode("d"));
+    abab.appendChild(document.createTextNode("c^2+d^2 (abab)"));
+    for (var i = 0; i < listOut.length; i++) {
+        var row = table.insertRow(-1);
+        var cCell = row.insertCell(-1);
+        cCell.appendChild(document.createTextNode(listOut[i][0]));
+        var dCell = row.insertCell(-1);
+        dCell.appendChild(document.createTextNode(listOut[i][1]));
+        var iCell = row.insertCell(-1);
+        iCell.appendChild(document.createTextNode(listOut[i][2]));
+    }
+    document.body.appendChild(table);
+}
+window.onload=genABAB;
+</script>
+<p id="output">
+</p>
+</body>

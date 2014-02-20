@@ -1,0 +1,350 @@
+0000.022 (0) Opened log file at time: Tue, 18 Feb 2014 03:32:33 +0000
+0000.024 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.8.8 WP: 3.8.1 PHP: 5.3.24 (Linux p3nlhg1275.shr.prod.phx3.secureserver.net 2.6.32-358.18.1.el6.nfsfixes.x86_64 #1 SMP Wed Sep 4 14:07:10 MST 2013 x86_64) MySQL: 5.0.96-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.2M | 28.5M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 2884468.5 Mb
+0000.787 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.789 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.844 (0) Requesting semaphore lock (fd)
+0000.863 (0) Set semaphore last lock (fd) time to 2014-02-18 03:32:34
+0000.867 (0) Semaphore lock (fd) complete
+0000.895 (0) Backup run: resumption=0, nonce=7a1c14edbbd8, begun at=1392694353 (1s ago), job type=backup
+0000.900 (0) Scheduling a resumption (1) after 300 seconds (1392694654) in case this run gets aborted
+0000.927 (0) Checking if we have a zip executable available
+0000.933 (0) Testing: /usr/bin/zip
+0000.959 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.971 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.976 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.982 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.988 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0001.003 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0001.008 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0001.049 (0) Working binary zip found: /usr/bin/zip
+0001.061 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.067 (0) Creation of backups of directories: beginning
+0001.086 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0005.986 (0) Total entities for the zip file: 462 directories, 3163 files, 43.9 Mb
+0005.989 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1.5 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0006.034 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: size is now: 0.10 Mb
+0006.085 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 100 files added (on-disk size: 94.8 Kb)
+0006.139 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 200 files added (on-disk size: 94.8 Kb)
+0006.197 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 300 files added (on-disk size: 94.8 Kb)
+0006.253 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 400 files added (on-disk size: 94.8 Kb)
+0006.308 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 500 files added (on-disk size: 94.8 Kb)
+0006.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 Mb, 3163 files batched, 501 (502) added so far); re-opening (prior size: 94.8 Kb)
+0009.882 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: size is now: 1.20 Mb
+0009.953 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 600 files added (on-disk size: 1247.8 Kb)
+0010.023 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 700 files added (on-disk size: 1247.8 Kb)
+0010.092 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 800 files added (on-disk size: 1247.8 Kb)
+0010.159 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 900 files added (on-disk size: 1247.8 Kb)
+0010.222 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1000 files added (on-disk size: 1247.8 Kb)
+0010.226 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.8 Mb, 3163 files batched, 501 (1003) added so far); re-opening (prior size: 1247.8 Kb)
+0016.255 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: size is now: 8.40 Mb
+0016.320 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1100 files added (on-disk size: 8651 Kb)
+0016.387 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1200 files added (on-disk size: 8651 Kb)
+0016.447 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1300 files added (on-disk size: 8651 Kb)
+0016.508 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1400 files added (on-disk size: 8651 Kb)
+0016.569 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1500 files added (on-disk size: 8651 Kb)
+0016.572 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 3163 files batched, 501 (1504) added so far); re-opening (prior size: 8651 Kb)
+0020.522 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1600 files added (on-disk size: 10314.2 Kb)
+0020.594 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1700 files added (on-disk size: 10314.2 Kb)
+0020.671 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1800 files added (on-disk size: 10314.2 Kb)
+0020.754 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 1900 files added (on-disk size: 10314.2 Kb)
+0020.829 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2000 files added (on-disk size: 10314.2 Kb)
+0020.833 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 Mb, 3163 files batched, 501 (2005) added so far); re-opening (prior size: 10314.2 Kb)
+0025.947 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: size is now: 14.30 Mb
+0026.048 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2100 files added (on-disk size: 14610.3 Kb)
+0026.123 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2200 files added (on-disk size: 14610.3 Kb)
+0026.189 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2300 files added (on-disk size: 14610.3 Kb)
+0026.262 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2400 files added (on-disk size: 14610.3 Kb)
+0026.323 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2500 files added (on-disk size: 14610.3 Kb)
+0026.328 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 Mb, 3163 files batched, 501 (2506) added so far); re-opening (prior size: 14610.3 Kb)
+0030.575 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2600 files added (on-disk size: 16293 Kb)
+0030.639 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2700 files added (on-disk size: 16293 Kb)
+0030.702 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2800 files added (on-disk size: 16293 Kb)
+0030.769 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 2900 files added (on-disk size: 16293 Kb)
+0030.842 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 3000 files added (on-disk size: 16293 Kb)
+0030.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 Mb, 3163 files batched, 501 (3007) added so far); re-opening (prior size: 16293 Kb)
+0034.771 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip.tmp: 3100 files added (on-disk size: 17735.8 Kb)
+0036.991 (0) Created plugins zip (0) - 19048.9 Kb in 35.9 s (530.7 Kb/s) (SHA1 checksum: bf7118afa29d486138ff52b88c4f6abb09557653)
+0036.996 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0037.788 (0) Total entities for the zip file: 81 directories, 496 files, 8.6 Mb
+0037.829 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0037.865 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0037.904 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0037.947 (0) Zip: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0042.453 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip.tmp: size is now: 6.70 Mb
+0042.534 (0) Created themes zip (0) - 6814.3 Kb in 5.5 s (1231.8 Kb/s) (SHA1 checksum: 99797c2fef987c9e6f1093caa71e8c85ab1d0486)
+0042.540 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*
+0042.542 (0) Looking for candidates to back up in: /home/content/46/11866046/html/wordpress_stuff/wp-content/uploads
+0042.544 (0) finding files: wpcf7_captcha: adding to list
+0042.545 (0) finding files: 2013: adding to list
+0042.546 (0) finding files: 2014: adding to list
+0042.548 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0042.650 (0) Total entities for the zip file: 8 directories, 43 files, 11.8 Mb
+0043.786 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip.tmp: size is now: 11.60 Mb
+0043.933 (0) Created uploads zip (0) - 11872.1 Kb in 1.4 s (8605.2 Kb/s) (SHA1 checksum: 5c7f59d07a7015c599828a0b99c199b92f93fbe1)
+0043.940 (0) Beginning backup of other directories found in the content directory (index: 0)
+0043.941 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*
+0043.942 (0) Looking for candidates to back up in: /home/content/46/11866046/html/wordpress_stuff/wp-content
+0043.944 (0) finding files: index.php: adding to list
+0043.945 (0) finding files: upgrade: skipping: excluded by options
+0043.946 (0) finding files: plugins: skipping: this is the plugins directory
+0043.947 (0) finding files: themes: skipping: this is the themes directory
+0043.948 (0) finding files: uploads: skipping: this is the uploads directory
+0043.949 (0) finding files: updraft: skipping: this is the updraft directory
+0043.958 (0) Total entities for the zip file: 0 directories, 1 files, 0 Mb
+0043.996 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip.tmp: size is now: 0.00 Mb
+0044.002 (0) Created others zip (0) - 0.2 Kb in 0 s (4.3 Kb/s) (SHA1 checksum: 34beeba4ca8bb55e742ac9b7c95cd7a89caa9a75)
+0044.011 (0) Saving backup status to database (elements: 8)
+0044.017 (0) Beginning creation of database dump
+0044.029 (0) Testing: /usr/bin/mysqldump
+0044.134 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0044.144 (0) Table wp_options: Total expected rows (approximate): 409
+0044.252 (0) Table wp_options: Total rows added: 408 in 0.11 seconds
+0044.255 (0) Table wp_options: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_options.table.gz - 64 Kb)
+0044.277 (0) Table wp_users: Total expected rows (approximate): 8
+0044.283 (0) Table wp_users: Total rows added: 8 in 0.00 seconds
+0044.284 (0) Table wp_users: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_users.table.gz - 0 Kb)
+0044.292 (0) Table wp_usermeta: Total expected rows (approximate): 199
+0044.312 (0) Table wp_usermeta: Total rows added: 199 in 0.02 seconds
+0044.313 (0) Table wp_usermeta: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_usermeta.table.gz - 0 Kb)
+0044.321 (0) Table wp_commentmeta: Total expected rows (approximate): 1
+0044.325 (0) Table wp_commentmeta: Total rows added: 1 in 0.00 seconds
+0044.326 (0) Table wp_commentmeta: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_commentmeta.table.gz - 0 Kb)
+0044.335 (0) Table wp_comments: Total expected rows (approximate): 4
+0044.341 (0) Table wp_comments: Total rows added: 4 in 0.00 seconds
+0044.343 (0) Table wp_comments: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_comments.table.gz - 0 Kb)
+0044.350 (0) Table wp_links: Total expected rows (approximate): 0
+0044.354 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0044.355 (0) Table wp_links: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_links.table.gz - 0 Kb)
+0044.362 (0) Table wp_postmeta: Total expected rows (approximate): 1632
+0044.411 (0) Table wp_postmeta: Total rows added: 1632 in 0.05 seconds
+0044.412 (0) Table wp_postmeta: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_postmeta.table.gz - 0 Kb)
+0044.418 (0) Table wp_posts: Total expected rows (approximate): 365
+0044.475 (0) Table wp_posts: Total rows added: 365 in 0.06 seconds
+0044.479 (0) Table wp_posts: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_posts.table.gz - 0 Kb)
+0044.491 (0) Table wp_term_relationships: Total expected rows (approximate): 84
+0044.499 (0) Table wp_term_relationships: Total rows added: 84 in 0.01 seconds
+0044.501 (0) Table wp_term_relationships: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_term_relationships.table.gz - 0 Kb)
+0044.507 (0) Table wp_term_taxonomy: Total expected rows (approximate): 26
+0044.513 (0) Table wp_term_taxonomy: Total rows added: 26 in 0.00 seconds
+0044.514 (0) Table wp_term_taxonomy: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_term_taxonomy.table.gz - 0 Kb)
+0044.520 (0) Table wp_terms: Total expected rows (approximate): 24
+0044.525 (0) Table wp_terms: Total rows added: 24 in 0.00 seconds
+0044.526 (0) Table wp_terms: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_terms.table.gz - 0 Kb)
+0044.539 (0) Table wp_allowphp_functions: Total expected rows (approximate): 1
+0044.555 (0) Table wp_allowphp_functions: Total rows added: 1 in 0.01 seconds
+0044.556 (0) Table wp_allowphp_functions: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_allowphp_functions.table.gz - 0 Kb)
+0044.562 (0) Table wp_cpt_sentry_groups: Total expected rows (approximate): 1
+0044.567 (0) Table wp_cpt_sentry_groups: Total rows added: 1 in 0.00 seconds
+0044.568 (0) Table wp_cpt_sentry_groups: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_cpt_sentry_groups.table.gz - 0 Kb)
+0044.574 (0) Table wp_sabre_table: Total expected rows (approximate): 47
+0044.582 (0) Table wp_sabre_table: Total rows added: 47 in 0.01 seconds
+0044.583 (0) Table wp_sabre_table: finishing file (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_sabre_table.table.gz - 0 Kb)
+0044.605 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_options.table.gz (1/14): adding to final database dump
+0044.658 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_users.table.gz (2/14): adding to final database dump
+0044.660 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_usermeta.table.gz (3/14): adding to final database dump
+0044.663 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_commentmeta.table.gz (4/14): adding to final database dump
+0044.665 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_comments.table.gz (5/14): adding to final database dump
+0044.667 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_links.table.gz (6/14): adding to final database dump
+0044.669 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_postmeta.table.gz (7/14): adding to final database dump
+0044.683 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_posts.table.gz (8/14): adding to final database dump
+0044.697 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_term_relationships.table.gz (9/14): adding to final database dump
+0044.700 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_term_taxonomy.table.gz (10/14): adding to final database dump
+0044.702 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_terms.table.gz (11/14): adding to final database dump
+0044.704 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_allowphp_functions.table.gz (12/14): adding to final database dump
+0044.705 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_cpt_sentry_groups.table.gz (13/14): adding to final database dump
+0044.707 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db-table-wp_sabre_table.table.gz (14/14): adding to final database dump
+0044.712 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: finished writing out complete database file (128 Kb)
+0044.726 (0) Total database tables backed up: 14 (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: checksum (SHA1): 63b73a62159601da5634a896efd8491c99ef0246)
+0044.730 (0) Saving backup history
+0044.738 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0044.739 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0044.740 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0044.741 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0044.742 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0044.746 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0044.749 (0) Cloud backup selection: googledrive
+0044.751 (0) Beginning dispatch of backup to remote (googledrive)
+0044.754 (0) Google Drive: requesting access token: client_id=92658495223.apps.googleusercontent.com
+0045.014 (0) Google Drive: successfully obtained access token
+0045.325 (0) Google Drive quota usage: used=1053.5 Mb, total=15360 Mb, available=14306.5 Mb
+0045.326 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip: Attempting to upload to Google Drive
+0045.327 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip: Attempting to upload file to Google Drive.
+0045.887 (0) Uploading file with title backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip
+0045.889 (0) Googledrive chunked upload: 0 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2UpQ5scV3ZM72sSpd5d-SI-ApRsxH5KqCu83kLpBfjT5-irtpyoP-Ua1L9aoM4gBTlo9MBNiQXImrBNS8Yg6npKNw35Z_w)
+0046.348 (0) Googledrive chunked upload: 2 % uploaded
+0046.664 (0) Googledrive chunked upload: 5 % uploaded
+0047.005 (0) Googledrive chunked upload: 8 % uploaded
+0047.334 (0) Googledrive chunked upload: 10 % uploaded
+0047.659 (0) Googledrive chunked upload: 13 % uploaded
+0047.986 (0) Googledrive chunked upload: 16 % uploaded
+0048.382 (0) Googledrive chunked upload: 18 % uploaded
+0048.714 (0) Googledrive chunked upload: 21 % uploaded
+0049.089 (0) Googledrive chunked upload: 24 % uploaded
+0049.469 (0) Googledrive chunked upload: 26 % uploaded
+0049.821 (0) Googledrive chunked upload: 29 % uploaded
+0050.256 (0) Googledrive chunked upload: 32 % uploaded
+0050.635 (0) Googledrive chunked upload: 34 % uploaded
+0051.022 (0) Googledrive chunked upload: 37 % uploaded
+0051.442 (0) Googledrive chunked upload: 40 % uploaded
+0051.803 (0) Googledrive chunked upload: 43 % uploaded
+0052.168 (0) Googledrive chunked upload: 45 % uploaded
+0052.636 (0) Googledrive chunked upload: 48 % uploaded
+0052.989 (0) Googledrive chunked upload: 51 % uploaded
+0053.347 (0) Googledrive chunked upload: 53 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2UpQ5scV3ZM72sSpd5d-SI-ApRsxH5KqCu83kLpBfjT5-irtpyoP-Ua1L9aoM4gBTlo9MBNiQXImrBNS8Yg6npKNw35Z_w)
+0053.702 (0) Googledrive chunked upload: 56 % uploaded
+0054.049 (0) Googledrive chunked upload: 59 % uploaded
+0054.374 (0) Googledrive chunked upload: 61 % uploaded
+0054.719 (0) Googledrive chunked upload: 64 % uploaded
+0055.044 (0) Googledrive chunked upload: 67 % uploaded
+0055.370 (0) Googledrive chunked upload: 69 % uploaded
+0055.727 (0) Googledrive chunked upload: 72 % uploaded
+0056.058 (0) Googledrive chunked upload: 75 % uploaded
+0056.392 (0) Googledrive chunked upload: 77 % uploaded
+0056.772 (0) Googledrive chunked upload: 80 % uploaded
+0057.105 (0) Googledrive chunked upload: 83 % uploaded
+0057.453 (0) Googledrive chunked upload: 86 % uploaded
+0057.782 (0) Googledrive chunked upload: 88 % uploaded
+0058.106 (0) Googledrive chunked upload: 91 % uploaded
+0058.434 (0) Googledrive chunked upload: 94 % uploaded
+0058.771 (0) Googledrive chunked upload: 96 % uploaded
+0059.119 (0) Googledrive chunked upload: 99 % uploaded
+0060.219 (0) The file was successfully uploaded to Google Drive in 14.332 seconds at an upload speed of 714 kB/s.
+0060.221 (0) OK: Archive backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip uploaded to Google Drive in 14.89 seconds (id: 0Bzwh5OUeXG8WUGFNazNVM2lydUE)
+0060.224 (0) Recording as successfully uploaded: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip (d9b4c76a1e955325cef9340d7efb1d3a)
+0060.229 (0) Stored file<->id correlation in database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip <-> 0Bzwh5OUeXG8WUGFNazNVM2lydUE)
+0060.236 (0) Deleting local file: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-plugins.zip: OK
+0060.237 (0) Google Drive quota usage: used=1053.5 Mb, total=15360 Mb, available=14306.5 Mb
+0060.239 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip: Attempting to upload to Google Drive
+0060.242 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip: Attempting to upload file to Google Drive.
+0060.433 (0) Uploading file with title backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip
+0060.436 (0) Googledrive chunked upload: 0 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2UrYgEJJ-IUS4Wr6N1qjNrT0oPb8MWyoXibOh5ko6XrcYf6abxw8N5fTe4ZgxInw5zMOBgeBS3oTOCRnjEBDRTPytyUbuA)
+0061.321 (0) Googledrive chunked upload: 7 % uploaded
+0061.682 (0) Googledrive chunked upload: 15 % uploaded
+0062.116 (0) Googledrive chunked upload: 22 % uploaded
+0062.459 (0) Googledrive chunked upload: 30 % uploaded
+0062.781 (0) Googledrive chunked upload: 37 % uploaded
+0063.119 (0) Googledrive chunked upload: 45 % uploaded
+0063.471 (0) Googledrive chunked upload: 52 % uploaded
+0063.805 (0) Googledrive chunked upload: 60 % uploaded
+0064.206 (0) Googledrive chunked upload: 67 % uploaded
+0064.540 (0) Googledrive chunked upload: 75 % uploaded
+0064.891 (0) Googledrive chunked upload: 82 % uploaded
+0065.248 (0) Googledrive chunked upload: 90 % uploaded
+0065.637 (0) Googledrive chunked upload: 97 % uploaded
+0067.380 (0) The file was successfully uploaded to Google Drive in 6.947 seconds at an upload speed of 486 kB/s.
+0067.383 (0) OK: Archive backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip uploaded to Google Drive in 7.14 seconds (id: 0Bzwh5OUeXG8WZFYwMmw5TWFma2s)
+0067.385 (0) Recording as successfully uploaded: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip (b8d7b1f49f90d56fc91b622715ed878e)
+0067.389 (0) Stored file<->id correlation in database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip <-> 0Bzwh5OUeXG8WZFYwMmw5TWFma2s)
+0067.392 (0) Deleting local file: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-themes.zip: OK
+0067.393 (0) Google Drive quota usage: used=1053.5 Mb, total=15360 Mb, available=14306.5 Mb
+0067.394 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip: Attempting to upload to Google Drive
+0067.395 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip: Attempting to upload file to Google Drive.
+0067.798 (0) Uploading file with title backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip
+0067.801 (0) Googledrive chunked upload: 0 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2Uo8flhlV5Z3eiVuuGQsG5KCL6HjfHhkeu2SbwUJInJQydZ_fg6YLGCHoScHBZucA95h73DT1dr1LfEiE0uAPcNUy8C_ww)
+0068.202 (0) Googledrive chunked upload: 4 % uploaded
+0068.531 (0) Googledrive chunked upload: 8 % uploaded
+0068.979 (0) Googledrive chunked upload: 12 % uploaded
+0069.326 (0) Googledrive chunked upload: 17 % uploaded
+0069.662 (0) Googledrive chunked upload: 21 % uploaded
+0070.044 (0) Googledrive chunked upload: 25 % uploaded
+0070.402 (0) Googledrive chunked upload: 30 % uploaded
+0070.752 (0) Googledrive chunked upload: 34 % uploaded
+0071.083 (0) Googledrive chunked upload: 38 % uploaded
+0071.440 (0) Googledrive chunked upload: 43 % uploaded
+0071.860 (0) Googledrive chunked upload: 47 % uploaded
+0072.223 (0) Googledrive chunked upload: 51 % uploaded
+0072.607 (0) Googledrive chunked upload: 56 % uploaded
+0072.980 (0) Googledrive chunked upload: 60 % uploaded
+0073.401 (0) Googledrive chunked upload: 64 % uploaded
+0073.846 (0) Googledrive chunked upload: 69 % uploaded
+0074.173 (0) Googledrive chunked upload: 73 % uploaded
+0074.553 (0) Googledrive chunked upload: 77 % uploaded
+0074.919 (0) Googledrive chunked upload: 81 % uploaded
+0075.278 (0) Googledrive chunked upload: 86 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2Uo8flhlV5Z3eiVuuGQsG5KCL6HjfHhkeu2SbwUJInJQydZ_fg6YLGCHoScHBZucA95h73DT1dr1LfEiE0uAPcNUy8C_ww)
+0075.625 (0) Googledrive chunked upload: 90 % uploaded
+0075.958 (0) Googledrive chunked upload: 94 % uploaded
+0076.454 (0) Googledrive chunked upload: 99 % uploaded
+0077.681 (0) The file was successfully uploaded to Google Drive in 9.882 seconds at an upload speed of 625 kB/s.
+0077.684 (0) OK: Archive backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip uploaded to Google Drive in 10.29 seconds (id: 0Bzwh5OUeXG8WTlBaN0VRODRUX2M)
+0077.686 (0) Recording as successfully uploaded: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip (7ae64fb9b533c3f4d9ff54cf2069bca6)
+0077.691 (0) Stored file<->id correlation in database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip <-> 0Bzwh5OUeXG8WTlBaN0VRODRUX2M)
+0077.695 (0) Deleting local file: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-uploads.zip: OK
+0077.696 (0) Google Drive quota usage: used=1053.5 Mb, total=15360 Mb, available=14306.5 Mb
+0077.697 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip: Attempting to upload to Google Drive
+0077.699 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip: Attempting to upload file to Google Drive.
+0077.913 (0) Uploading file with title backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip
+0077.916 (0) Googledrive chunked upload: 0 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2UpIHXopdP3_4yc7JbereR4FPUk83xP2AawELGK327znVySizr-6beJd8zACbSwgrHeFD-42AjT9o53_09JHXXbLLWlaQQ)
+0079.018 (0) The file was successfully uploaded to Google Drive in 1.104 seconds at an upload speed of 204 B /s.
+0079.020 (0) OK: Archive backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip uploaded to Google Drive in 1.32 seconds (id: 0Bzwh5OUeXG8WVDlxOVozUUotQzQ)
+0079.022 (0) Recording as successfully uploaded: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip (91fb38863d985795e0dd9738f5f9e793)
+0079.027 (0) Stored file<->id correlation in database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip <-> 0Bzwh5OUeXG8WVDlxOVozUUotQzQ)
+0079.029 (0) Deleting local file: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-others.zip: OK
+0079.030 (0) Google Drive quota usage: used=1053.5 Mb, total=15360 Mb, available=14306.5 Mb
+0079.031 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: Attempting to upload to Google Drive
+0079.032 (0) backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: Attempting to upload file to Google Drive.
+0079.232 (0) Uploading file with title backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz
+0079.236 (0) Googledrive chunked upload: 0 % uploaded (URL: https://docs.google.com/feeds/upload/create-session/default/private/full/folder%3A0Bzwh5OUeXG8WQ0t2eE8tLWh4b0U/contents?convert=false&upload_id=AEnB2UrJLLrPUBtnGLeehCn3zf_B6ezNStnLzD8_QKC-LpaMv5GX3cMhAYPk077_UHlQHA80pJp0HVMascNvh7mkSy3LMWcbnA)
+0080.114 (0) The file was successfully uploaded to Google Drive in 0.881 seconds at an upload speed of 173 kB/s.
+0080.115 (0) OK: Archive backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz uploaded to Google Drive in 1.08 seconds (id: 0Bzwh5OUeXG8WczBPejZMbElVbGs)
+0080.117 (0) Recording as successfully uploaded: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz (683b1ae5d966fa4826f4a109c5f624df)
+0080.122 (0) Stored file<->id correlation in database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz <-> 0Bzwh5OUeXG8WczBPejZMbElVbGs)
+0080.123 (0) Deleting local file: backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz: OK
+0080.126 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0080.128 (0) Number of backup sets in history: 11
+0080.129 (0) Examining backup set with datestamp: 1392694353 (Feb 18 2014 03:32:33)
+0080.130 (0) 1392694353: db: this set includes a database (backup_2014-02-17-1932_TechShroom_Studios_7a1c14edbbd8-db.gz); db count is now 1
+0080.133 (0) 1392694353: this backup set remains non-empty (1/1); will retain in history
+0080.133 (0) Examining backup set with datestamp: 1392607663 (Feb 17 2014 03:27:43)
+0080.134 (0) 1392607663: db: this set includes a database (backup_2014-02-16-1927_TechShroom_Studios_d05672364a83-db.gz); db count is now 2
+0080.137 (0) 1392607663: this backup set remains non-empty (1/1); will retain in history
+0080.137 (0) Examining backup set with datestamp: 1392523784 (Feb 16 2014 04:09:44)
+0080.138 (0) 1392523784: db: this set includes a database (backup_2014-02-15-2009_TechShroom_Studios_31ee229811f2-db.gz); db count is now 3
+0080.141 (0) 1392523784: this backup set remains non-empty (1/1); will retain in history
+0080.142 (0) Examining backup set with datestamp: 1392435241 (Feb 15 2014 03:34:01)
+0080.143 (0) 1392435241: db: this set includes a database (backup_2014-02-14-1934_TechShroom_Studios_882acf547813-db.gz); db count is now 4
+0080.145 (0) 1392435241: this backup set remains non-empty (1/1); will retain in history
+0080.146 (0) Examining backup set with datestamp: 1392348913 (Feb 14 2014 03:35:13)
+0080.146 (0) 1392348913: db: this set includes a database (backup_2014-02-13-1935_TechShroom_Studios_28a8aa32fd7f-db.gz); db count is now 5
+0080.149 (0) 1392348913: this backup set remains non-empty (1/1); will retain in history
+0080.149 (0) Examining backup set with datestamp: 1392268188 (Feb 13 2014 05:09:48)
+0080.150 (0) 1392268188: db: this set includes a database (backup_2014-02-12-2109_TechShroom_Studios_061ee691d717-db.gz); db count is now 6
+0080.152 (0) 1392268188: this backup set remains non-empty (1/1); will retain in history
+0080.153 (0) Examining backup set with datestamp: 1392176865 (Feb 12 2014 03:47:45)
+0080.154 (0) 1392176865: db: this set includes a database (backup_2014-02-11-1947_TechShroom_Studios_0b7c17a58497-db.gz); db count is now 7
+0080.156 (0) 1392176865: this backup set remains non-empty (1/1); will retain in history
+0080.157 (0) Examining backup set with datestamp: 1392097966 (Feb 11 2014 05:52:46)
+0080.158 (0) 1392097966: db: this set includes a database (backup_2014-02-10-2152_TechShroom_Studios_342c4c01ae0c-db.gz); db count is now 8
+0080.160 (0) 1392097966: this backup set remains non-empty (1/1); will retain in history
+0080.161 (0) Examining backup set with datestamp: 1392003759 (Feb 10 2014 03:42:39)
+0080.163 (0) 1392003759: db: this set includes a database (backup_2014-02-09-1942_TechShroom_Studios_dc68e8f9f122-db.gz); db count is now 9
+0080.165 (0) 1392003759: this backup set remains non-empty (1/1); will retain in history
+0080.166 (0) Examining backup set with datestamp: 1391923436 (Feb 09 2014 05:23:56)
+0080.167 (0) 1391923436: db: this set includes a database (backup_2014-02-08-2123_TechShroom_Studios_29d7aa40450b-db.gz); db count is now 10
+0080.169 (0) 1391923436: this backup set remains non-empty (1/1); will retain in history
+0080.171 (0) Examining backup set with datestamp: 1391831633 (Feb 08 2014 03:53:53)
+0080.172 (0) 1391831633: db: this set includes a database (backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-db.gz); db count is now 11
+0080.173 (0) 1391831633: db: over retain limit (10); will delete this database
+0080.174 (0) Delete file: backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-db.gz, service=googledrive
+0080.896 (0) backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-db.gz: Deletion successful
+0080.900 (0) plugins: 1391831633: over retain limit (10); will delete this file (backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-plugins.zip)
+0080.901 (0) themes: 1391831633: over retain limit (10); will delete this file (backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-themes.zip)
+0080.902 (0) uploads: 1391831633: over retain limit (10); will delete this file (backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-uploads.zip)
+0080.903 (0) others: 1391831633: over retain limit (10); will delete this file (backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-others.zip)
+0080.904 (0) Delete file: backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-plugins.zip, service=googledrive
+0080.905 (0) Delete file: backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-themes.zip, service=googledrive
+0080.906 (0) Delete file: backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-uploads.zip, service=googledrive
+0080.908 (0) Delete file: backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-others.zip, service=googledrive
+0081.650 (0) backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-plugins.zip: Deletion successful
+0082.584 (0) backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-themes.zip: Deletion successful
+0083.318 (0) backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-uploads.zip: Deletion successful
+0083.956 (0) backup_2014-02-07-1953_TechShroom_Studios_d1ed91aa2ef8-others.zip: Deletion successful
+0083.960 (0) 1391831633: this backup set is now empty; will remove from history
+0083.962 (0) 1391831633: deleting log file (log.d1ed91aa2ef8.txt)
+0083.966 (0) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0083.971 (0) Resume backup (7a1c14edbbd8, 0): finish run
+0083.974 (0) Decremented the semaphore (fd) by 1
+0083.975 (0) Semaphore (fd) unlocked
+0083.976 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0083.979 (0) No email will/can be sent - the user has not configured an email address.
+0083.980 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pete Holiday
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-sentry\n"
+"POT-Creation-Date: 2008-12-15 14:41+0000\n"
+"PO-Revision-Date: 2008-12-18 14:34-0500\n"
+"Last-Translator: Pete Holiday <pete.holiday@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-sentry.php:94
+msgid "None"
+msgstr "Geen"
+
+#: wp-sentry.php:95
+#: wp-sentry.php:1270
+msgid "Title"
+msgstr "Titel"
+
+#: wp-sentry.php:96
+msgid "Excerpt"
+msgstr "Fragment"
+
+#: wp-sentry.php:97
+msgid "Above-the-fold"
+msgstr "Boven-de-lijn"
+
+#: wp-sentry.php:110
+msgid "You do not have permission to view this post."
+msgstr "U heeft geen toestemming om dit bericht te bekijken."
+
+#: wp-sentry.php:111
+#: wp-sentry.php:1233
+#: wp-sentry.php:1280
+#: wp-sentry.php:1530
+msgid "Private"
+msgstr "Priv&eacute;"
+
+#: wp-sentry.php:379
+msgid "The most recent comments"
+msgstr "De meest recente opmerkingen"
+
+#: wp-sentry.php:380
+#: wp-sentry.php:381
+#: wp-sentry.php:417
+msgid "Recent Comments"
+msgstr "Recente Opmerkingen"
+
+#: wp-sentry.php:388
+msgid "The most recent posts on your blog"
+msgstr "De meeste recente berichten op uw blog"
+
+#: wp-sentry.php:389
+#: wp-sentry.php:390
+#: wp-sentry.php:463
+msgid "Recent Posts"
+msgstr "Recente Berichten"
+
+#: wp-sentry.php:395
+msgid "Your blog's WordPress Pages"
+msgstr "Uw blog's WordPress Pagina's"
+
+#: wp-sentry.php:396
+#: wp-sentry.php:397
+#: wp-sentry.php:502
+msgid "Pages"
+msgstr "Pagina's"
+
+#: wp-sentry.php:439
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: wp-sentry.php:546
+#: wp-sentry.php:552
+#: wp-sentry.php:651
+#: wp-sentry.php:968
+msgid "WP Sentry Options"
+msgstr "WP Sentry Opties"
+
+#: wp-sentry.php:547
+msgid "WP Sentry"
+msgstr "WP Sentry"
+
+#: wp-sentry.php:553
+#: wp-sentry.php:653
+msgid "General Options"
+msgstr "Algemene Opties"
+
+#: wp-sentry.php:558
+msgid "WP Sentry Groups"
+msgstr "WP Sentry Groepen"
+
+#: wp-sentry.php:559
+msgid "User Groups"
+msgstr "Gebruikers Groepen"
+
+#: wp-sentry.php:564
+msgid "WP Sentry Post Previews"
+msgstr "WP Sentry Bericht Voorbeelden"
+
+#: wp-sentry.php:565
+msgid "Preview Settings"
+msgstr "Voorbeeld Instellingen"
+
+#: wp-sentry.php:570
+msgid "WP Sentry Default Groups"
+msgstr "WP Sentry Standaard Groepen"
+
+#: wp-sentry.php:571
+msgid "Default Groups"
+msgstr "Standaard Groepen"
+
+#: wp-sentry.php:576
+msgid "WP Sentry Post Access Tool"
+msgstr "WP Sentry Bericht Toegang Gereedschap"
+
+#: wp-sentry.php:577
+msgid "Post Access"
+msgstr "Bericht Toegang"
+
+#: wp-sentry.php:583
+msgid "Sentry Enabled Feed Key Plugin"
+msgstr "Sentry Ingeschakelde Feed Sleutel Plugin"
+
+#: wp-sentry.php:584
+msgid "Private Feeds"
+msgstr "Priv&eacute; Feeds"
+
+#: wp-sentry.php:590
+#: wp-sentry.php:591
+#: wp-sentry.php:1378
+msgid "User &amp; Group Access"
+msgstr "Gebruikers &amp; Groep Toegang"
+
+#: wp-sentry.php:632
+#: wp-sentry.php:949
+#: wp-sentry.php:1007
+msgid "Options updated."
+msgstr "Opties bijgewerkt."
+
+#: wp-sentry.php:646
+#: wp-sentry.php:776
+#: wp-sentry.php:963
+#: wp-sentry.php:1021
+#: wp-sentry.php:1162
+msgid "ERROR"
+msgstr "FOUT"
+
+#: wp-sentry.php:656
+msgid "Enable Feed Key?"
+msgstr "Feed Sleutel Inschakelen?"
+
+#: wp-sentry.php:659
+msgid "Enable the embedded, Sentry-aware, version of Feed Key."
+msgstr "Schakel de ingesloten, Sentry-bewuste, versie van Feed Sluitel in."
+
+#: wp-sentry.php:662
+msgid "Private Titles"
+msgstr "Priv&eacute; Titels"
+
+#: wp-sentry.php:662
+msgid "Post Title Here"
+msgstr "Bericht Titel Hier"
+
+#: wp-sentry.php:662
+#: wp-sentry.php:981
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: wp-sentry.php:662
+msgid "HTML is allowed and un-filtered. Be careful."
+msgstr "HTML is toegestaan en ongefiltreerd. Wees voorzichtig."
+
+#: wp-sentry.php:667
+msgid "Widget Replacement"
+msgstr "Widget Vervanging"
+
+#: wp-sentry.php:677
+msgid "title"
+msgstr "titel"
+
+#: wp-sentry.php:677
+msgid "Replace"
+msgstr "Vervang"
+
+#: wp-sentry.php:677
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: wp-sentry.php:704
+#, php-format
+msgid "A group named <i>'%s'</i> already exists."
+msgstr "Een groep genaamd <i>'%s'</i> bestaat al."
+
+#: wp-sentry.php:706
+msgid "Group names must not be blank."
+msgstr "Groep namen mogen niet blanco zijn."
+
+#: wp-sentry.php:711
+#, php-format
+msgid "Group '%s' added."
+msgstr "Groep '%s' toegevoegd."
+
+#: wp-sentry.php:744
+#, php-format
+msgid "%s groups deleted."
+msgstr "%s groepen verwijderd."
+
+#: wp-sentry.php:761
+#, php-format
+msgid "Group '%s' updated."
+msgstr "Groep '%s' bijgewerkt."
+
+#: wp-sentry.php:781
+msgid "WP Sentry User Groups"
+msgstr "WP Sentry Gebruikers Groepen"
+
+#: wp-sentry.php:788
+msgid "Do you really wish to delete the following user groups?"
+msgstr "Wilt u echt de volgende gebruikers groepen verwijderen?"
+
+#: wp-sentry.php:793
+msgid "No members"
+msgstr "Geen leden"
+
+#: wp-sentry.php:795
+#, php-format
+msgid "%s members"
+msgstr "%s leden"
+
+#: wp-sentry.php:800
+msgid "Yes, delete them"
+msgstr "Ja, verwijder ze"
+
+#: wp-sentry.php:802
+msgid "You didn't select any groups to delete."
+msgstr "U heeft geen groepen geselecteerd om te verwijderden."
+
+#: wp-sentry.php:826
+msgid "Group Name"
+msgstr "Groep Naam"
+
+#: wp-sentry.php:827
+msgid "Members"
+msgstr "Leden"
+
+#: wp-sentry.php:844
+msgid "No users found."
+msgstr "Geen gebruikers gevonden."
+
+#: wp-sentry.php:846
+msgid "This group is a member of:"
+msgstr "Deze groep is een lid van:"
+
+#: wp-sentry.php:863
+#: wp-sentry.php:910
+msgid "No groups found."
+msgstr "Geen groepen gevonden."
+
+#: wp-sentry.php:866
+msgid "Update Group"
+msgstr "Groep Bijgewerkt"
+
+#: wp-sentry.php:874
+msgid "Group List"
+msgstr "Groep Lijst"
+
+#: wp-sentry.php:876
+msgid "Delete Checked Groups"
+msgstr "Verwijder Geselecteerde Groepen"
+
+#: wp-sentry.php:878
+msgid "Name"
+msgstr "Naam"
+
+#: wp-sentry.php:878
+#: wp-sentry.php:1270
+msgid "Users"
+msgstr "Gebruikers"
+
+#: wp-sentry.php:878
+msgid "Posts"
+msgstr "Berichten"
+
+#: wp-sentry.php:878
+msgid "Memberships"
+msgstr "Leden"
+
+#: wp-sentry.php:914
+msgid "New Group"
+msgstr "Nieuwe Groep"
+
+#: wp-sentry.php:914
+msgid "Add Group"
+msgstr "Groep Toevoegen"
+
+#: wp-sentry.php:934
+msgid "Invalid preview-type specified."
+msgstr "Onjuiste voorbeeld-type gespecificeerd."
+
+#: wp-sentry.php:971
+msgid "Show Previews?"
+msgstr "Voorbeelden laten zien?"
+
+#: wp-sentry.php:980
+msgid "Show preview only for content available to all registered users."
+msgstr "Voorbeeld alleen laten zien voor inhoud toegankelijk voor alle geregistreerde gebruikers."
+
+#: wp-sentry.php:981
+msgid "These options determine what unauthorized users can see. \"Unauthorized users\" include web spiders, users who are not logged in, and logged in users who do not have permission to see the post in question. Use with caution."
+msgstr "Deze opties bepalen wat niet-geautoriseerde gebruikers kunnen zien. \"Unauthorized users\" zijn o.a. web spiders, gebruikers die niet ingelogd zijn en ingelogde gebruikers die geen toegang hebben tot het bericht in kwestie. Wees voorzichtig."
+
+#: wp-sentry.php:983
+msgid "Preview Link"
+msgstr "Voorbeeld Link"
+
+#: wp-sentry.php:983
+#: wp-sentry.php:1328
+#: wp-sentry.php:1424
+msgid "Note"
+msgstr "Noot"
+
+#: wp-sentry.php:983
+msgid "This URL will be used for permalinks the user does not have access to view, avoiding sending them to a 404 Page. Leave blank to disable."
+msgstr "Deze URL zal gebruikt worden voor permalinks waarbij de gebruiker geen toegang heeft om ze te bekijken, wat voorkomt dat zij naar een 404 Pagina worden gestuurd. Laat blanco om uit te schakelen."
+
+#: wp-sentry.php:985
+msgid "Denied Message"
+msgstr "Geweigerd Bericht"
+
+#: wp-sentry.php:1029
+msgid "Default Posting Groups"
+msgstr "Standaard Berichten Groepen"
+
+#: wp-sentry.php:1046
+msgid "Default User Groups"
+msgstr "Standaard Gebruikers Groepen"
+
+#: wp-sentry.php:1083
+msgid "No posts selected."
+msgstr "Geen berichten geselecteerd."
+
+#: wp-sentry.php:1085
+msgid "Improper method specified."
+msgstr "Onjuiste methode gespecificeerd."
+
+#: wp-sentry.php:1142
+#, php-format
+msgid "Permissions replaced for %s posts."
+msgstr "Toegang vervangen voor %s berichten."
+
+#: wp-sentry.php:1146
+#, php-format
+msgid "Permissions merged for %s posts."
+msgstr "Toegang samengevoegd voor %s berichten."
+
+#: wp-sentry.php:1167
+msgid "Post Access Settings"
+msgstr "Bericht Toegang Instellingen"
+
+#: wp-sentry.php:1232
+msgid "All Posts"
+msgstr "Alle Berichten"
+
+#: wp-sentry.php:1234
+#: wp-sentry.php:1282
+msgid "Public"
+msgstr "Publiekelijk"
+
+#: wp-sentry.php:1245
+msgid "Show all dates"
+msgstr "Alle data laten zien"
+
+#: wp-sentry.php:1263
+msgid "Filter"
+msgstr "Filter"
+
+#: wp-sentry.php:1270
+msgid "Date"
+msgstr "Datum"
+
+#: wp-sentry.php:1270
+msgid "Status"
+msgstr "Status"
+
+#: wp-sentry.php:1270
+msgid "Groups"
+msgstr "Groepen"
+
+#: wp-sentry.php:1296
+msgid "Y/m/d"
+msgstr "J/m/d"
+
+#: wp-sentry.php:1302
+msgid "No posts found."
+msgstr "Geen berichten gevonden."
+
+#: wp-sentry.php:1304
+#: wp-sentry.php:1382
+msgid "Allow access to"
+msgstr "Toegang toestaan voor"
+
+#: wp-sentry.php:1309
+#: wp-sentry.php:1387
+msgid "These groups"
+msgstr "Deze groepen"
+
+#: wp-sentry.php:1317
+#: wp-sentry.php:1401
+msgid "And these users"
+msgstr "En deze gebruikers"
+
+#: wp-sentry.php:1320
+#: wp-sentry.php:1409
+msgid "Allow All Registered Users"
+msgstr "Toegang Toestaan Voor Alle Geregistreerde Gebruikers"
+
+#: wp-sentry.php:1328
+msgid "Selecting any users or groups here forces the post to be private, but clearing them will not make a private post public again."
+msgstr "Elke gebruiker of groep die u hier selecteert forceert het bericht om priv&eacute; te zijn, maar ze vrijstellen zal een priv&eacute; bericht niet weer publiekelijk maken."
+
+#: wp-sentry.php:1329
+msgid "Replace Permissions"
+msgstr "Vervang Toegang"
+
+#: wp-sentry.php:1330
+msgid "Add Permissions"
+msgstr "Voeg Toegang toe"
+
+#: wp-sentry.php:1424
+msgid "Selecting any users or groups here forces the post to be Private"
+msgstr "Elke gebruiker die u hier selecteert forceert een bericht om Priv&eacute; te zijn."
+
+#: wp-sentry.php:1704
+msgid "If you are looking for a way to to give back to WP Sentry, feel free to show your gratitude via paypal."
+msgstr "Als u op zoek bent naar een manier om terug te geven aan WP Sentry, voel u dan vrij om uw waardering te laten zien via paypal."
+
+#. Description of an extension
+msgid "Granular user and group access controls for private posts."
+msgstr "Korrelige gebruiker en groeps toegang instellingen voor priv&eacute; berichten."
+

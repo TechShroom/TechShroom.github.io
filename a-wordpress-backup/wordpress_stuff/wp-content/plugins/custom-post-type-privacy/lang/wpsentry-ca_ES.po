@@ -1,0 +1,693 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Pete Holiday
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Senytry\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-05 12:37+0100\n"
+"PO-Revision-Date: 2009-03-17 22:48+0100\n"
+"Last-Translator: Robert Buj <rbuj@wanadoo.es>\n"
+"Language-Team: Robert Buj <rbuj@wanadoo.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:81
+#: wp-sentry.php:81
+msgid "None"
+msgstr "Cap"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:82
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1116
+#: wp-sentry.php:82
+#: wp-sentry.php:1116
+msgid "Title"
+msgstr "Títol"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:83
+#: wp-sentry.php:83
+msgid "Excerpt"
+msgstr "Resum"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:84
+#: wp-sentry.php:84
+msgid "Above-the-fold"
+msgstr "Per sobre de la tapa"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:92
+#: wp-sentry.php:92
+msgid "You do not have permission to view this post."
+msgstr "Vostè no té permís per veure aquesta entrada."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:93
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1079
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1126
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1368
+#: wp-sentry.php:93
+#: wp-sentry.php:1079
+#: wp-sentry.php:1126
+#: wp-sentry.php:1368
+msgid "Private"
+msgstr "Privat"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:337
+#: wp-sentry.php:337
+msgid "The most recent comments"
+msgstr "Els comentaris més recents"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:338
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:339
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:366
+#: wp-sentry.php:338
+#: wp-sentry.php:339
+#: wp-sentry.php:366
+msgid "Recent Comments"
+msgstr "Comentaris recents"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:341
+#: wp-sentry.php:341
+msgid "The most recent posts on your blog"
+msgstr "L'entrada més recent del vostre blog"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:342
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:343
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:412
+#: wp-sentry.php:342
+#: wp-sentry.php:343
+#: wp-sentry.php:412
+msgid "Recent Posts"
+msgstr "Posts recents"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:345
+#: wp-sentry.php:345
+msgid "Your blog's WordPress Pages"
+msgstr "Les pàgines del teu blog de WordPress"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:346
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:347
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:451
+#: wp-sentry.php:346
+#: wp-sentry.php:347
+#: wp-sentry.php:451
+msgid "Pages"
+msgstr "Pàgines"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:388
+#: wp-sentry.php:388
+#, php-format
+msgid "%1$s on %2$s"
+msgstr "%1$s en %2$s"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:494
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:812
+#: wp-sentry.php:494
+#: wp-sentry.php:812
+msgid "WP Sentry Options"
+msgstr "Opcions de WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:495
+#: wp-sentry.php:495
+msgid "WP Sentry"
+msgstr "WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:500
+#: wp-sentry.php:500
+msgid "WP Sentry Groups"
+msgstr "Grups de WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:501
+#: wp-sentry.php:501
+msgid "User Groups"
+msgstr "Grups d'usuaris"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:506
+#: wp-sentry.php:506
+msgid "WP Sentry Post Previews"
+msgstr "Previsualització d'entrades WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:507
+#: wp-sentry.php:507
+msgid "Preview Settings"
+msgstr "Previsualització de les preferències"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:512
+#: wp-sentry.php:512
+msgid "WP Sentry Default Groups"
+msgstr "Grups per defecte de WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:513
+#: wp-sentry.php:513
+msgid "Default Groups"
+msgstr "Grups per defecte"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:518
+#: wp-sentry.php:518
+msgid "WP Sentry Post Access Tool"
+msgstr "WP lloc de vigilància de l'eina d'accés"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:519
+#: wp-sentry.php:519
+msgid "Post Access"
+msgstr "Accés de les entrades"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:542
+#: wp-sentry.php:542
+#, php-format
+msgid "A group named <i>'%s'</i> already exists."
+msgstr "El grup <i>'%s'</i> ja existeix."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:544
+#: wp-sentry.php:544
+msgid "Group names must not be blank."
+msgstr "Els noms de grups no han d'estar sense omplir."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:549
+#: wp-sentry.php:549
+#, php-format
+msgid "Group '%s' added."
+msgstr "Afegits '%s' grups."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:582
+#: wp-sentry.php:582
+#, php-format
+msgid "%s groups deleted."
+msgstr "%s grups esborrats."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:614
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:807
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:867
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1008
+#: wp-sentry.php:614
+#: wp-sentry.php:807
+#: wp-sentry.php:867
+#: wp-sentry.php:1008
+msgid "ERROR"
+msgstr "ERROR"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:619
+#: wp-sentry.php:619
+msgid "WP Sentry User Groups"
+msgstr "Grups d'usuari WP Sentry"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:631
+#: wp-sentry.php:631
+msgid "No members"
+msgstr "Sense membres"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:633
+#: wp-sentry.php:633
+#, php-format
+msgid "%s members"
+msgstr "%s membres"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:638
+#: wp-sentry.php:638
+msgid "Yes, delete them"
+msgstr "Si, Esborra'l"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:664
+#: wp-sentry.php:664
+msgid "Group Name"
+msgstr "Nom del grup:"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:665
+#: wp-sentry.php:665
+msgid "Members"
+msgstr "Membres"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:684
+#: wp-sentry.php:684
+msgid "This group is a member of:"
+msgstr "Aquest grup es membre de:"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:704
+#: wp-sentry.php:704
+msgid "Update Group"
+msgstr "Actualitza grup"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:712
+#: wp-sentry.php:712
+msgid "Group List"
+msgstr "Llista de grups:"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:714
+#: wp-sentry.php:714
+msgid "Delete Checked Groups"
+msgstr "Esborrar els grups marcats"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:716
+#: wp-sentry.php:716
+msgid "Name"
+msgstr "Nom"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:716
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1116
+#: wp-sentry.php:716
+#: wp-sentry.php:1116
+msgid "Users"
+msgstr "Usuaris"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:716
+#: wp-sentry.php:716
+msgid "Posts"
+msgstr "Entrades"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:716
+#: wp-sentry.php:716
+msgid "Memberships"
+msgstr "Membresías"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:752
+#: wp-sentry.php:752
+msgid "New Group"
+msgstr "Grup nou"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:752
+#: wp-sentry.php:752
+msgid "Add Group"
+msgstr "Afegir grup"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:772
+#: wp-sentry.php:772
+msgid "Invalid preview-type specified."
+msgstr "El tipus de vista prèvia especificat no és vàlid."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:793
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:853
+#: wp-sentry.php:793
+#: wp-sentry.php:853
+msgid "Options updated."
+msgstr "Opcions carregades."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:815
+#: wp-sentry.php:815
+msgid "Show Previews?"
+msgstr "Mostrar Previsualització?"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:824
+#: wp-sentry.php:824
+msgid "Show preview only for content available to all registered users."
+msgstr "Mostra previsualització només pel contingut a disposició de tots els usuaris registrats."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:825
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: wp-sentry.php:825
+#: wp-sentry.php:829
+msgid "Warning"
+msgstr "Avís"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:825
+#: wp-sentry.php:825
+msgid "These options determine what unauthorized users can see. \"Unauthorized users\" include web spiders, users who are not logged in, and logged in users who do not have permission to see the post in question. Use with caution."
+msgstr "Aquestes opcions determinen quins usuaris no autoritzats ho puguin veure. \" Els usuaris no autoritzats \" inclouen aranyes, els usuaris que no s'ha identificat, i usuaris registrats que no tenen permís per veure el lloc en qüestió. Utilitzeu amb precaució."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:827
+#: wp-sentry.php:827
+msgid "Preview Link"
+msgstr "Enllaç previsualització"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:827
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1174
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1262
+#: wp-sentry.php:827
+#: wp-sentry.php:829
+#: wp-sentry.php:1174
+#: wp-sentry.php:1262
+msgid "Note"
+msgstr "Nota"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:827
+#: wp-sentry.php:827
+msgid "This URL will be used for permalinks the user does not have access to view, avoiding sending them to a 404 Page. Leave blank to disable."
+msgstr "Aquesta URL s'utilitzarà per a vincles permanents l'usuari no té accés per veure'ls, evitant l'enviament a una pàgina 404. Deixar en blanc per desactivar."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: wp-sentry.php:829
+msgid "Private Titles"
+msgstr "Títols privats"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: wp-sentry.php:829
+msgid "Post Title Here"
+msgstr "Aquí títol de l'entrada"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: wp-sentry.php:829
+msgid "This option is not limited to post previews and works even when previews are turned off."
+msgstr "Aquesta opció no esta limitada a la previsualització d'entrades i funciona quan les previsualitzacions estan apagades."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:829
+#: wp-sentry.php:829
+msgid "HTML is allowed and un-filtered. Be careful."
+msgstr "HTML és permès i sense filtrar. Aneu amb compte."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:831
+#: wp-sentry.php:831
+msgid "Denied Message"
+msgstr "Missatge denegat"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:832
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:908
+#: wp-sentry.php:832
+#: wp-sentry.php:908
+msgid "Update Options"
+msgstr "Actualitzar opcions"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:875
+#: wp-sentry.php:875
+msgid "Default Posting Groups"
+msgstr "Grups per defecte d'entrada"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:892
+#: wp-sentry.php:892
+msgid "Default User Groups"
+msgstr "Grups per defecte d'usuari"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:929
+#: wp-sentry.php:929
+msgid "No posts selected."
+msgstr "No heu seleccionat cap entrada."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:931
+#: wp-sentry.php:931
+msgid "Improper method specified."
+msgstr "Mètode inadequat."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:988
+#: wp-sentry.php:988
+#, php-format
+msgid "Permissions replaced for %s posts."
+msgstr "Permisos susbstituits per %s entrades"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:992
+#: wp-sentry.php:992
+#, php-format
+msgid "Permissions merged for %s posts."
+msgstr "Permisos fusionats per %s entrades"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1013
+#: wp-sentry.php:1013
+msgid "Post Access Settings"
+msgstr "Preferències d'accés de les entrades"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1078
+#: wp-sentry.php:1078
+msgid "All Posts"
+msgstr "Tots els escrits"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1080
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1128
+#: wp-sentry.php:1080
+#: wp-sentry.php:1128
+msgid "Public"
+msgstr "Públic"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1109
+#: wp-sentry.php:1109
+msgid "Filter"
+msgstr "Filtre"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1116
+#: wp-sentry.php:1116
+msgid "Date"
+msgstr "Data"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1116
+#: wp-sentry.php:1116
+msgid "Status"
+msgstr "Estat"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1116
+#: wp-sentry.php:1116
+msgid "Groups"
+msgstr "Grups"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1142
+#: wp-sentry.php:1142
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1150
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1220
+#: wp-sentry.php:1150
+#: wp-sentry.php:1220
+msgid "Allow access to"
+msgstr "Permetre accéss a"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1155
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1225
+#: wp-sentry.php:1155
+#: wp-sentry.php:1225
+msgid "These groups"
+msgstr "Aquests grups"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1163
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1239
+#: wp-sentry.php:1163
+#: wp-sentry.php:1239
+msgid "And these users"
+msgstr "I aquests usuaris"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1166
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1247
+#: wp-sentry.php:1166
+#: wp-sentry.php:1247
+msgid "Allow All Registered Users"
+msgstr "Permetre a tots els usuaris registrats"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1174
+#: wp-sentry.php:1174
+msgid "Selecting any users or groups here forces the post to be private, but clearing them will not make a private post public again."
+msgstr "Seleccionant aquí cap dels usuaris o grups força que l'escrit sigui privat, però esborrant-los no farà que sigui de nou un escrit públic."
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1175
+#: wp-sentry.php:1175
+msgid "Replace Permissions"
+msgstr "Substituir els permisos"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1176
+#: wp-sentry.php:1176
+msgid "Add Permissions"
+msgstr "Afegir permisos"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1218
+#: wp-sentry.php:1218
+msgid "User &amp; Group Access"
+msgstr "Usuari &amp; Accés de grup"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1262
+#: wp-sentry.php:1262
+msgid "Selecting any users or groups here forces the post to be Private"
+msgstr "Selecció dels usuaris o grups d'aquí força que l'escrit sigui Privat"
+
+#: C:\Documents
+#: and Settings\La droguerie\Bureau\downloads\Blog & Web
+#: Tools\wp_plugins\wp-sentry/wp-sentry.php:1535
+#: wp-sentry.php:1535
+msgid "If you are looking for a way to to give back to WP Sentry, feel free to show your gratitude via paypal."
+msgstr "Si està buscant una manera de fer donacions a WP Sentry, si fóssiu lliure de mostrar la vostra gratitud a través de PayPal."
+
+#~ msgid "Sentry Enabled Feed Key Plugin"
+#~ msgstr "Sentry Enabled Feed Key Plugin"
+#~ msgid "Private Feeds"
+#~ msgstr "Feeds privats"
+#~ msgid "Enable Feed Key?"
+#~ msgstr "Activar la clau Feed?"
+#~ msgid "Enable the embedded, Sentry-aware, version of Feed Key."
+#~ msgstr "Activar l'empotració, Sentry-conscient, versió de la clau Feed."
+#~ msgid "Widget Replacement"
+#~ msgstr "Substitució de Widget"
+#~ msgid "title"
+#~ msgstr "Títol"
+#~ msgid "Replace"
+#~ msgstr "Substitució"
+#~ msgid "Disable"
+#~ msgstr "Desactivat"
+#~ msgid "Group '%s' updated."
+#~ msgstr "Grup '%s' actualitzat."
+#~ msgid "Do you really wish to delete the following user groups?"
+#~ msgstr "Realment voleu eliminar el següent grup d'usuaris?"
+#~ msgid "You didn't select any groups to delete."
+#~ msgstr "No has marcat cap grup per eliminar."
+#~ msgid "No users found."
+#~ msgstr "No d'han trobat usuaris."
+#~ msgid "No groups found."
+#~ msgstr "No s'han trobat grups."
+#~ msgid "Show all dates"
+#~ msgstr "Mostrar totes les dates"
+#~ msgid "No posts found."
+#~ msgstr "No s'han trobat entrades."
+#~ msgid "Granular user and group access controls for private posts."
+#~ msgstr "Controls d'accés granulars d'usuari i grups per escrits privats."
+

@@ -1,0 +1,206 @@
+# Copyright 2012 Go Daddy Operating Company, LLC. All Rights Reserved.
+# This file is distributed under the same license as the Welcome to WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Welcome to WordPress 1.0\n"
+"POT-Creation-Date: 2012-12-04 21:24:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+
+#: resources/control-panel.php:14
+msgid ""
+"Your Hosting Control Center is where you can create new databases, "
+"subdomains, FTP users, and perform other actions related to your hosting "
+"account."
+msgstr ""
+
+#: resources/control-panel.php:18
+msgid "Open your hosting control center in a new window"
+msgstr ""
+
+#: resources/footer.php:14
+msgid "Copyright"
+msgstr ""
+
+#: resources/footer.php:15
+msgid "Starfield Technologies, LLC."
+msgstr ""
+
+#: resources/footer.php:16
+msgid "All rights reserved."
+msgstr ""
+
+#: resources/help.php:16
+msgid "Helpful WordPress Articles"
+msgstr ""
+
+#: resources/help.php:23
+msgid "Navigating WordPress"
+msgstr ""
+
+#: resources/help.php:30
+msgid "Slow Loading Website?"
+msgstr ""
+
+#: resources/help.php:37
+msgid "How to change your domain name"
+msgstr ""
+
+#: resources/help.php:44
+msgid "How to change your installation folder"
+msgstr ""
+
+#. #-#-#-#-#  welcome-to-wordpress.pot (Welcome to WordPress 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: resources/pointer.php:21 resources/settings.php:14
+msgid "Welcome to WordPress"
+msgstr ""
+
+#: resources/pointer.php:21
+msgid ""
+"New to WordPress? You should know some things before you get started with "
+"your site."
+msgstr ""
+
+#: resources/pointer.php:29
+msgid "Cancel"
+msgstr ""
+
+#: resources/pointer.php:36
+msgid "Show Me"
+msgstr ""
+
+#: resources/security.php:17
+msgid "Keeping Your WordPress Site Secure"
+msgstr ""
+
+#: resources/settings.php:22
+msgid "Save Changes"
+msgstr ""
+
+#: resources/welcome.php:16
+msgid "Getting Started with WordPress"
+msgstr ""
+
+#: resources/welcome.php:23
+msgid "Premium Templates"
+msgstr ""
+
+#: welcome-to-wordpress.php:121
+msgid "Welcome Plugin"
+msgstr ""
+
+#: welcome-to-wordpress.php:132
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: welcome-to-wordpress.php:155 welcome-to-wordpress.php:156
+#: welcome-to-wordpress.php:167
+msgid "Welcome"
+msgstr ""
+
+#: welcome-to-wordpress.php:157 welcome-to-wordpress.php:178
+msgid "Help"
+msgstr ""
+
+#: welcome-to-wordpress.php:158 welcome-to-wordpress.php:189
+msgid "Security"
+msgstr ""
+
+#: welcome-to-wordpress.php:159 welcome-to-wordpress.php:200
+msgid "Hosting Control Center"
+msgstr ""
+
+#: welcome-to-wordpress.php:211
+msgid "Settings"
+msgstr ""
+
+#: welcome-to-wordpress.php:215 welcome-to-wordpress.php:775
+msgid "Secure .htaccess rules"
+msgstr ""
+
+#: welcome-to-wordpress.php:224 welcome-to-wordpress.php:831
+msgid "Browser caching rules"
+msgstr ""
+
+#: welcome-to-wordpress.php:233 welcome-to-wordpress.php:895
+msgid "Object cache"
+msgstr ""
+
+#: welcome-to-wordpress.php:242 welcome-to-wordpress.php:930
+msgid "Show help"
+msgstr ""
+
+#: welcome-to-wordpress.php:350 welcome-to-wordpress.php:361
+#: welcome-to-wordpress.php:372 welcome-to-wordpress.php:383
+#: welcome-to-wordpress.php:422 welcome-to-wordpress.php:430
+msgid "Failed to update %s"
+msgstr ""
+
+#: welcome-to-wordpress.php:593
+msgid "This site is not capable of using an object cache"
+msgstr ""
+
+#: welcome-to-wordpress.php:601
+msgid "Failed to write to %s"
+msgstr ""
+
+#: welcome-to-wordpress.php:638
+msgid "Failed to remove %s"
+msgstr ""
+
+#: welcome-to-wordpress.php:782
+msgid "Use hardened WordPress .htaccess rules"
+msgstr ""
+
+#: welcome-to-wordpress.php:784
+msgid "Hardening rules are not available on this platform"
+msgstr ""
+
+#: welcome-to-wordpress.php:787
+msgid "This feature is only available for apache web servers."
+msgstr ""
+
+#: welcome-to-wordpress.php:837
+msgid "Enable browser caching web.config rules"
+msgstr ""
+
+#: welcome-to-wordpress.php:839
+msgid "Enable browser caching .htaccess rules"
+msgstr ""
+
+#: welcome-to-wordpress.php:841
+msgid "Browser caching rules are not available on this platform"
+msgstr ""
+
+#: welcome-to-wordpress.php:844
+msgid "Caching WordPress rules are only available on IIS7 and apache"
+msgstr ""
+
+#: welcome-to-wordpress.php:900
+msgid "Enable object caching"
+msgstr ""
+
+#: welcome-to-wordpress.php:902
+msgid "This feature is only available with WinCache or APC"
+msgstr ""
+
+#: welcome-to-wordpress.php:935
+msgid "Show \"Welcome\" menu in the WordPress admin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Optimal configuration and additional help for your WordPress site.  This was "
+"installed when your account was setup."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Starfield Technologies"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.starfieldtech.com/"
+msgstr ""

@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Timer 2.6.1\n"
+"Report-Msgid-Bugs-To: http://www.kleor.com/easy-timer\n"
+"POT-Creation-Date: 2010-04-28 00:00+0000\n"
+"PO-Revision-Date: 2014-01-06 11:08+0100\n"
+"Last-Translator: Kleor <contact@kleor.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+msgid "Allows you to easily display a count down/up timer, the time or the current date on your website, and to schedule an automatic content modification."
+msgstr "Pozwala łatwo wyświetlić licznik, czas lub bieżącą datę na swojej stronie internetowej, a także zaplanować automatyczne zmiany treści."
+
+#: admin.php:15
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+#: admin.php:17
+msgid "Reset"
+msgstr "Resetuj"
+
+#: admin.php:18
+#: options-page.php:44
+msgid "Options"
+msgstr "Opcje"
+
+#: admin.php:27
+#: options-page.php:40
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: languages/index.php:3
+msgid "no"
+msgstr "nie"
+
+#: languages/index.php:4
+msgid "yes"
+msgstr "tak"
+
+#: options-page.php:7
+msgid "Options reset."
+msgstr "Opcje zresetowane."
+
+#: options-page.php:7
+msgid "Options deleted."
+msgstr "Opcje usunięte"
+
+#: options-page.php:13
+msgid "Do you really want to reset the options of Easy Timer?"
+msgstr "Czy rzeczywiście chcesz przywrócić ustawienia domyślne Easy Timer?"
+
+#: options-page.php:14
+msgid "Do you really want to permanently delete the options of Easy Timer?"
+msgstr "Czy rzeczywiście chcesz na stałe usunąć opcje Easy Timer?"
+
+#: options-page.php:15
+msgid "Yes"
+msgstr "Tak"
+
+#: options-page.php:43
+msgid "Settings saved."
+msgstr ""
+
+#: options-page.php:47
+#: options-page.php:55
+msgid "The"
+msgstr " "
+
+#: options-page.php:47
+#: options-page.php:55
+msgid "shortcode is equivalent to"
+msgstr "skrót jest równoznaczny z"
+
+#, fuzzy
+msgid "shortcode is equivalent to:"
+msgstr "skrót jest równoznaczny z"
+
+#: options-page.php:52
+#: options-page.php:56
+msgid "More informations"
+msgstr "Więcej informacji"
+
+#: options-page.php:56
+#, fuzzy
+msgid "Cookies lifetime (used for relative dates):"
+msgstr "Czas życia Cookies (daty względne)"
+
+#: options-page.php:56
+#: shortcodes.php:148
+#: shortcodes.php:278
+msgid "days"
+msgstr "dni"
+
+#: options-page.php:57
+msgid "Add JavaScript code"
+msgstr "Dodaj kod JavaScript"
+
+#: options-page.php:58
+msgid "If you uncheck this box, Easy Timer will never add any JavaScript code to the pages of your website, but your count up/down timers will not refresh."
+msgstr "Jeżeli nie zaznaczysz tej opcji, Easy Timer nigdy nie doda kodu JavaScript do Twoich stron, ale Twoje liczniki nie będą się odświeżać."
+
+#: options-page.php:59
+msgid "Save Changes"
+msgstr ""
+
+#: shortcodes.php:143
+#: shortcodes.php:273
+msgid "0 second"
+msgstr "0 sekund"
+
+#: shortcodes.php:144
+#: shortcodes.php:274
+msgid "1 day"
+msgstr "1 dzień"
+
+#: shortcodes.php:145
+#: shortcodes.php:275
+msgid "1 hour"
+msgstr "1 godzina"
+
+#: shortcodes.php:146
+#: shortcodes.php:276
+msgid "1 minute"
+msgstr "1 minuta"
+
+#: shortcodes.php:147
+#: shortcodes.php:277
+msgid "1 second"
+msgstr "1 sekunda"
+
+#: shortcodes.php:149
+#: shortcodes.php:279
+msgid "hours"
+msgstr "godzin"
+
+#: shortcodes.php:150
+#: shortcodes.php:280
+msgid "minutes"
+msgstr "minut"
+
+#: shortcodes.php:151
+#: shortcodes.php:281
+msgid "seconds"
+msgstr "sekund"
+
+#: shortcodes.php:154
+#: shortcodes.php:166
+#: shortcodes.php:219
+#: shortcodes.php:231
+msgid "DECEMBER"
+msgstr "GRUDZIEŃ"
+
+#: shortcodes.php:155
+#: shortcodes.php:220
+msgid "JANUARY"
+msgstr "STYCZEŃ"
+
+#: shortcodes.php:156
+#: shortcodes.php:221
+msgid "FEBRUARY"
+msgstr "LUTY"
+
+#: shortcodes.php:157
+#: shortcodes.php:222
+msgid "MARCH"
+msgstr "MARZEC"
+
+#: shortcodes.php:158
+#: shortcodes.php:223
+msgid "APRIL"
+msgstr "KWIECIEŃ"
+
+#: shortcodes.php:159
+#: shortcodes.php:224
+msgid "MAY"
+msgstr "MAJ"
+
+#: shortcodes.php:160
+#: shortcodes.php:225
+msgid "JUNE"
+msgstr "CZERWIEC"
+
+#: shortcodes.php:161
+#: shortcodes.php:226
+msgid "JULY"
+msgstr "LIPIEC"
+
+#: shortcodes.php:162
+#: shortcodes.php:227
+msgid "AUGUST"
+msgstr "SIERPIEŃ"
+
+#: shortcodes.php:163
+#: shortcodes.php:228
+msgid "SEPTEMBER"
+msgstr "WRZESIEŃ"
+
+#: shortcodes.php:164
+#: shortcodes.php:229
+msgid "OCTOBER"
+msgstr "PAŃDZIERNIK"
+
+#: shortcodes.php:165
+#: shortcodes.php:230
+msgid "NOVEMBER"
+msgstr "LISTOPAD"
+
+#: shortcodes.php:169
+#: shortcodes.php:176
+#: shortcodes.php:423
+#: shortcodes.php:430
+msgid "SUNDAY"
+msgstr "NIEDZIELA"
+
+#: shortcodes.php:170
+#: shortcodes.php:424
+msgid "MONDAY"
+msgstr "PONIEDZIAŁEK"
+
+#: shortcodes.php:171
+#: shortcodes.php:425
+msgid "TUESDAY"
+msgstr "WTOREK"
+
+#: shortcodes.php:172
+#: shortcodes.php:426
+msgid "WEDNESDAY"
+msgstr "ŚRODA"
+
+#: shortcodes.php:173
+#: shortcodes.php:427
+msgid "THURSDAY"
+msgstr "CZWARTEK"
+
+#: shortcodes.php:174
+#: shortcodes.php:428
+msgid "FRIDAY"
+msgstr "PIĄTEK"
+
+#: shortcodes.php:175
+#: shortcodes.php:429
+msgid "SATURDAY"
+msgstr "SOBOTA"
+
+msgid "Display a countdown timer"
+msgstr ""
+
+msgid "Display the time or the date"
+msgstr ""
+
+msgid "Hide this box"
+msgstr ""
+
+#, fuzzy
+msgid "Delete the options of Easy Timer"
+msgstr "Czy rzeczywiście chcesz przywrócić ustawienia domyślne Easy Timer?"
+
+#, fuzzy
+msgid "Reset the options of Easy Timer"
+msgstr "Czy rzeczywiście chcesz przywrócić ustawienia domyślne Easy Timer?"
+
+msgid "Delete the options of Easy Timer for all sites in this network"
+msgstr ""
+
+#, fuzzy
+msgid "Do you really want to permanently delete the options of Easy Timer for all sites in this network?"
+msgstr "Czy rzeczywiście chcesz na stałe usunąć opcje Easy Timer?"
+
+#~ msgid "No"
+#~ msgstr "Nie"

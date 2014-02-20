@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Sentry 0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-sentry\n"
+"POT-Creation-Date: 2008-12-15 14:41+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Denis Scheglov <denis.scheglov@gmail.com>\n"
+"Language-Team: Denis Scheglov <denis.scheglov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: wp-sentry.php:94
+msgid "None"
+msgstr "Пусто"
+
+#: wp-sentry.php:95
+#: wp-sentry.php:1270
+msgid "Title"
+msgstr "Заголовок"
+
+#: wp-sentry.php:96
+msgid "Excerpt"
+msgstr "Анонс"
+
+#: wp-sentry.php:97
+msgid "Above-the-fold"
+msgstr "Above-the-fold"
+
+#: wp-sentry.php:110
+msgid "You do not have permission to view this post."
+msgstr "У вас нет прав на просмотр этого сообщения."
+
+#: wp-sentry.php:111
+#: wp-sentry.php:1233
+#: wp-sentry.php:1280
+#: wp-sentry.php:1530
+msgid "Private"
+msgstr "Закрыто"
+
+#: wp-sentry.php:379
+msgid "The most recent comments"
+msgstr "Самые последние комментарии"
+
+#: wp-sentry.php:380
+#: wp-sentry.php:381
+#: wp-sentry.php:417
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#: wp-sentry.php:388
+msgid "The most recent posts on your blog"
+msgstr "Самые последние записи"
+
+#: wp-sentry.php:389
+#: wp-sentry.php:390
+#: wp-sentry.php:463
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+#: wp-sentry.php:395
+msgid "Your blog's WordPress Pages"
+msgstr "Текстовые страницы"
+
+#: wp-sentry.php:396
+#: wp-sentry.php:397
+#: wp-sentry.php:502
+msgid "Pages"
+msgstr "Страницы"
+
+#: wp-sentry.php:439
+#, fuzzy, php-format
+msgid "%1$s on %2$s"
+msgstr "%1$s in %2$s"
+
+#: wp-sentry.php:546
+#: wp-sentry.php:552
+#: wp-sentry.php:651
+#: wp-sentry.php:968
+msgid "WP Sentry Options"
+msgstr "Настройки WP Sentry"
+
+#: wp-sentry.php:547
+msgid "WP Sentry"
+msgstr "WP Sentry"
+
+#: wp-sentry.php:553
+#: wp-sentry.php:653
+msgid "General Options"
+msgstr "Общие"
+
+#: wp-sentry.php:558
+msgid "WP Sentry Groups"
+msgstr "Группы WP Sentry"
+
+#: wp-sentry.php:559
+msgid "User Groups"
+msgstr "Группы пользователей"
+
+#: wp-sentry.php:564
+msgid "WP Sentry Post Previews"
+msgstr "Превью записей"
+
+#: wp-sentry.php:565
+msgid "Preview Settings"
+msgstr "Настройки превью"
+
+#: wp-sentry.php:570
+msgid "WP Sentry Default Groups"
+msgstr "Группы по умолчанию"
+
+#: wp-sentry.php:571
+msgid "Default Groups"
+msgstr "Группы по умолчанию"
+
+#: wp-sentry.php:576
+msgid "WP Sentry Post Access Tool"
+msgstr "WP Sentry плагин контроля доступа"
+
+#: wp-sentry.php:577
+msgid "Post Access"
+msgstr "Доступ к записи"
+
+#: wp-sentry.php:583
+msgid "Sentry Enabled Feed Key Plugin"
+msgstr "Sentry Enabled Feed Key Plugin"
+
+#: wp-sentry.php:584
+msgid "Private Feeds"
+msgstr "Private Feeds"
+
+#: wp-sentry.php:590
+#: wp-sentry.php:591
+#: wp-sentry.php:1378
+msgid "User &amp; Group Access"
+msgstr "Настройка доступа для групп и пользователей"
+
+#: wp-sentry.php:632
+#: wp-sentry.php:949
+#: wp-sentry.php:1007
+msgid "Options updated."
+msgstr "Настройки сохранены."
+
+#: wp-sentry.php:646
+#: wp-sentry.php:776
+#: wp-sentry.php:963
+#: wp-sentry.php:1021
+#: wp-sentry.php:1162
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: wp-sentry.php:656
+msgid "Enable Feed Key?"
+msgstr "Enable Feed Key?"
+
+#: wp-sentry.php:659
+msgid "Enable the embedded, Sentry-aware, version of Feed Key."
+msgstr "Enable the embedded, Sentry-aware, version of Feed Key."
+
+#: wp-sentry.php:662
+msgid "Private Titles"
+msgstr "Заголовки закрытых записей"
+
+#: wp-sentry.php:662
+msgid "Post Title Here"
+msgstr "Заголовок записи здесь"
+
+#: wp-sentry.php:662
+#: wp-sentry.php:981
+msgid "Warning"
+msgstr "Внимание"
+
+#: wp-sentry.php:662
+msgid "HTML is allowed and un-filtered. Be careful."
+msgstr "HTML разрешен и не фильтруется. Будьте внимательны."
+
+#: wp-sentry.php:667
+msgid "Widget Replacement"
+msgstr "Замена виджетов"
+
+#: wp-sentry.php:677
+msgid "title"
+msgstr "заголовок"
+
+#: wp-sentry.php:677
+msgid "Replace"
+msgstr "Замена"
+
+#: wp-sentry.php:677
+msgid "Disable"
+msgstr "Отключить"
+
+#: wp-sentry.php:704
+#, php-format
+msgid "A group named <i>'%s'</i> already exists."
+msgstr "Группы с именем <i>'%s'</i> уже существует."
+
+#: wp-sentry.php:706
+msgid "Group names must not be blank."
+msgstr "Имя группы не можем быть пустым"
+
+#: wp-sentry.php:711
+#, php-format
+msgid "Group '%s' added."
+msgstr "Группа  '%s' добавлена."
+
+#: wp-sentry.php:744
+#, php-format
+msgid "%s groups deleted."
+msgstr "%s групп(а) удалены."
+
+#: wp-sentry.php:761
+#, php-format
+msgid "Group '%s' updated."
+msgstr "Группа '%s' сохранена."
+
+#: wp-sentry.php:781
+msgid "WP Sentry User Groups"
+msgstr "Группы доступа пользователей"
+
+#: wp-sentry.php:788
+msgid "Do you really wish to delete the following user groups?"
+msgstr "Вы действительно желаете удалить следующие группы?"
+
+#: wp-sentry.php:793
+msgid "No members"
+msgstr "Никого"
+
+#: wp-sentry.php:795
+#, php-format
+msgid "%s members"
+msgstr "%s пользователей"
+
+#: wp-sentry.php:800
+msgid "Yes, delete them"
+msgstr "Да, удалить"
+
+#: wp-sentry.php:802
+msgid "You didn't select any groups to delete."
+msgstr "Вы не выбрали ни одной группы для удаления."
+
+#: wp-sentry.php:826
+msgid "Group Name"
+msgstr "Название группы"
+
+#: wp-sentry.php:827
+msgid "Members"
+msgstr "Пользователи"
+
+#: wp-sentry.php:844
+msgid "No users found."
+msgstr "Никого не не найдено."
+
+#: wp-sentry.php:846
+msgid "This group is a member of:"
+msgstr "Эта группа участник другой:"
+
+#: wp-sentry.php:863
+#: wp-sentry.php:910
+msgid "No groups found."
+msgstr "Группы не найдены."
+
+#: wp-sentry.php:866
+msgid "Update Group"
+msgstr "Сохранить группы"
+
+#: wp-sentry.php:874
+msgid "Group List"
+msgstr "Список групп"
+
+#: wp-sentry.php:876
+msgid "Delete Checked Groups"
+msgstr "Удалить помеченные группы"
+
+#: wp-sentry.php:878
+msgid "Name"
+msgstr "Название"
+
+#: wp-sentry.php:878
+#: wp-sentry.php:1270
+msgid "Users"
+msgstr "Пользователи"
+
+#: wp-sentry.php:878
+msgid "Posts"
+msgstr "Записи"
+
+#: wp-sentry.php:878
+msgid "Memberships"
+msgstr "Memberships"
+
+#: wp-sentry.php:914
+msgid "New Group"
+msgstr "Новая группа"
+
+#: wp-sentry.php:914
+msgid "Add Group"
+msgstr "Добавить группу"
+
+#: wp-sentry.php:934
+msgid "Invalid preview-type specified."
+msgstr "Указан неправильный тип превью."
+
+#: wp-sentry.php:971
+msgid "Show Previews?"
+msgstr "Показывать превью?"
+
+#: wp-sentry.php:980
+msgid "Show preview only for content available to all registered users."
+msgstr "Показывать превью только контента доступному всем зарегестрированным пользователям."
+
+#: wp-sentry.php:981
+msgid "These options determine what unauthorized users can see. \"Unauthorized users\" include web spiders, users who are not logged in, and logged in users who do not have permission to see the post in question. Use with caution."
+msgstr "Эти параметры определяют что могут видеть неавторизованные пользователи, такие как принадлежащие другим юзергруппам, или незалогиненные, или поисковые роботоы."
+
+#: wp-sentry.php:983
+msgid "Preview Link"
+msgstr "Preview Link"
+
+#: wp-sentry.php:983
+#: wp-sentry.php:1328
+#: wp-sentry.php:1424
+msgid "Note"
+msgstr "Замечание"
+
+#: wp-sentry.php:983
+msgid "This URL will be used for permalinks the user does not have access to view, avoiding sending them to a 404 Page. Leave blank to disable."
+msgstr "Этот URL будет отображаться вместо ошибки 404 для тех кто не имеет доступа к просмотру. Оставьте пустым чтобы отключить"
+
+#: wp-sentry.php:985
+msgid "Denied Message"
+msgstr "Запрещенное сообщение"
+
+#: wp-sentry.php:1029
+msgid "Default Posting Groups"
+msgstr "Default Posting Groups"
+
+#: wp-sentry.php:1046
+msgid "Default User Groups"
+msgstr "Группа пользователей по умолчанию"
+
+#: wp-sentry.php:1083
+msgid "No posts selected."
+msgstr "Записи не выбраны."
+
+#: wp-sentry.php:1085
+msgid "Improper method specified."
+msgstr "Указан неправильный метод."
+
+#: wp-sentry.php:1142
+#, php-format
+msgid "Permissions replaced for %s posts."
+msgstr "Права изменены для %s записей."
+
+#: wp-sentry.php:1146
+#, php-format
+msgid "Permissions merged for %s posts."
+msgstr "Права объединены для %s записей."
+
+#: wp-sentry.php:1167
+msgid "Post Access Settings"
+msgstr "Настройки доступа к записи"
+
+#: wp-sentry.php:1232
+msgid "All Posts"
+msgstr "Все записи"
+
+#: wp-sentry.php:1234
+#: wp-sentry.php:1282
+msgid "Public"
+msgstr "Публичный"
+
+#: wp-sentry.php:1245
+msgid "Show all dates"
+msgstr "Все даты"
+
+#: wp-sentry.php:1263
+msgid "Filter"
+msgstr "Фильтр"
+
+#: wp-sentry.php:1270
+msgid "Date"
+msgstr "Дата"
+
+#: wp-sentry.php:1270
+msgid "Status"
+msgstr "Статус"
+
+#: wp-sentry.php:1270
+msgid "Groups"
+msgstr "Группы"
+
+#: wp-sentry.php:1296
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: wp-sentry.php:1302
+msgid "No posts found."
+msgstr "Записи не найдены."
+
+#: wp-sentry.php:1304
+#: wp-sentry.php:1382
+msgid "Allow access to"
+msgstr "Разрешить доступ для "
+
+#: wp-sentry.php:1309
+#: wp-sentry.php:1387
+msgid "These groups"
+msgstr "Эти группы"
+
+#: wp-sentry.php:1317
+#: wp-sentry.php:1401
+msgid "And these users"
+msgstr "И эти группы"
+
+#: wp-sentry.php:1320
+#: wp-sentry.php:1409
+msgid "Allow All Registered Users"
+msgstr "Разрешить всем зарегистрированным"
+
+#: wp-sentry.php:1328
+msgid "Selecting any users or groups here forces the post to be private, but clearing them will not make a private post public again."
+msgstr "Выбор любых групп или пользователей сделает эту запись закрытой для других (Private), но последующий сброс этих ограничений не сделает запись публичной и она будет доступна только админу! Ищите public статус в настройках записи для разрешения просмотра всем."
+
+#: wp-sentry.php:1329
+msgid "Replace Permissions"
+msgstr "Заменить доступы"
+
+#: wp-sentry.php:1330
+msgid "Add Permissions"
+msgstr "Добавить доступы"
+
+#: wp-sentry.php:1424
+msgid "Selecting any users or groups here forces the post to be Private"
+msgstr "Выбор любых групп или пользователей сделает эту запись закрытой для других (Private)."
+
+#: wp-sentry.php:1704
+msgid "If you are looking for a way to to give back to WP Sentry, feel free to show your gratitude via paypal."
+msgstr "Выражение вашей благодарности в материальном виде принимается через PayPal. Русский перевод от <a href=http://www.next-step.ru/>Next Step Team</a>"
+
+#. Description of an extension
+msgid "Granular user and group access controls for private posts."
+msgstr "Управление доступом для групп и отдельных пользователей."
+
