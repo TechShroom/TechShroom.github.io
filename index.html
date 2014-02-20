@@ -6,20 +6,23 @@ TechShroom, The GitPages
 </title>
 <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
 <script>
-var firebase_set_success = function(data) {
-    var newText = document.createTextNode(data.key() + "->" + data.val());
+var firebase_set_success = function(error) {
+    var text = "";
+    if (error) {
+        text = "Error connecting.";
+    } else {
+        text = "Success.";
+    }
+    var newText = document.createTextNode(text);
     document.appendChild(newText);
 }
 var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
 var firebase_base = new Firebase(firebase_url);
-firebase_base.child("last-connection").set(new Date().getTime());
+firebase_base.child("last-connection").set(new Date().getTime(), firebase_set_success);
 </script>
 </head>
 <body>
 <h1>TS: The GitHub Pages</h1>
 <p>I'm hosted with GitHub Pages.</p>
-<script>
-firebase_base.on('value', firebase_set_success);
-</script>
 </body>
 </html>
