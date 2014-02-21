@@ -1,9 +1,0 @@
-0000.001 (0) Opened log file at time: Wed, 27 Nov 2013 06:48:26 +0000
-0000.003 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.7.41 WP: 3.7.1 PHP: 5.3.24 (Linux p3nlhg1275.shr.prod.phx3.secureserver.net 2.6.32-358.18.1.el6.nfsfixes.x86_64 #1 SMP Wed Sep 4 14:07:10 MST 2013 x86_64) MySQL: 5.0.96-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.9M | 23.8M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
-0000.006 (0) Free space on disk containing Updraft's temporary directory: 4339951.9 Mb
-0000.011 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
-0000.012 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
-0000.014 (0) Decremented the semaphore (fd) by 1
-0000.015 (0) Semaphore (fd) still locked
-0000.016 (0) No email will be sent - this backup set was empty.
-0000.016 (0) The backup apparently succeeded and is now complete

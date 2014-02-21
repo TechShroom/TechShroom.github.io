@@ -1,4 +1,0 @@
-TO-DO:
-* SHortcodes acting funny on various installations.  /***** DONE *****/
-* Extra space sometimes inserted with HTML magic.
-* Drag and Drop functionality for buttons.
