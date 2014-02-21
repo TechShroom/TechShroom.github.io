@@ -1,5 +1,5 @@
 ---
-theme: default
+layout: default
 title: A Post Test, or Welcome!
 ---
 
