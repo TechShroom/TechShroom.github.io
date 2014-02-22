@@ -7,8 +7,12 @@
   {% include header.html %}
   <body>
     <div class="container">
-        {{ content }}
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-2">
+                {{ content }}
+                {% include footer.html %}
+            </div>
+        </div>
     </div>
-    {% include footer.html %}
   </body>
 </html>
