@@ -1,26 +1,20 @@
 <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Optional theme -->
-<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/slate/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script>
-var firebase_set_success = function(error) {
-    var text = "";
-    if (error) {
-        text = "Error connecting.";
-    } else {
-        text = "Success.";
+<script>
+    var firebase_set_success = function(error) {
+        var text = "";
+        if (error) {
+            text = "Error connecting.";
+        } else {
+            text = "Success.";
+        }
+        var newText = document.createTextNode(text + " " + firebase_child);
+        document.getElementById("fb-check").appendChild(newText);
     }
-    var newText = document.createTextNode(text + " " + firebase_child);
-    document.getElementById("fb-check").appendChild(newText);
-}
-var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
-var firebase_base = new Firebase(firebase_url);
-var firebase_child = firebase_base.push();
-firebase_child.onDisconnect().remove();
-window.onload = function() {
-    firebase_child.child("connect-start").set(new Date().getTime(), firebase_set_success);
-}
+    var firebase_url = "https://incandescent-fire-7012.firebaseio.com/";
+    var firebase_base = new Firebase(firebase_url);
+    var firebase_child = firebase_base.push();
+    firebase_child.onDisconnect().remove();
+    window.onload = function() {
+        firebase_child.child("connect-start").set(new Date().getTime(), firebase_set_success);
+    }
 </script>

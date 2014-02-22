@@ -1,0 +1,15 @@
+<head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet"
+      media="screen"
+      href="/_stylesheets/slate.min.css"
+      type="text/css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    {% include firebase_start.html %}
+</head>
