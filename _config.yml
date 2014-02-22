@@ -10,7 +10,7 @@ exclude:
 - README.md
 - script
 - vendor
-
+title: TechShroom Studios
 include:
 - _stylesheets
 
