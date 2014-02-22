@@ -9,8 +9,23 @@
     {% include navbar.html %}
     <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-xs-offset-2">
-                {{ content }}
+            {% assign __align__col = col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-4 %}
+            <p>Using align {{ __align__col }}</p>
+            <div class="{{ __align__col }}">
+                <div class="panel panel-default">
+                  {% if page.title %}
+                    <div class="panel-heading">
+                      <h3 class="panel-title">{{ page.title }}</h3>
+                    </div>
+                  {% endif %}
+                  <div class="panel-body">
+                    {{ content }}
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="{{ __align__col }}">
                 {% include footer.html %}
             </div>
         </div>
