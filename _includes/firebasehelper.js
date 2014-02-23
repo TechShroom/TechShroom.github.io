@@ -1,3 +1,22 @@
+/* A helper class */
+
+function FBH(firebaseref) {
+    this.base = firebaseref;
+}
+
+// Puts protos
+var FBH_add = function(protoname, protoval) {
+    FBH.prototype[protoname] = protoval;
+};
+FBH_add("set", function(data, callback) {
+    this.base.set(data, callback);
+});
+FBH_add("getValue", function(key) {
+    alert(this.base);
+});
+
+// End
+
 var data_store_version = "4";
 var firebase_set_success = function(error) {
     var text = '';
@@ -24,4 +43,9 @@ window.onload = function() {
     window.firebase_ip_child.child('data').set(codehelper_ip);
     window.firebase_ip_child.child('status').set('Online');
     window.firebase_ip_child.child('status').onDisconnect().set('Offline');
+    window.refsforall = {};
+    refsforall["base"] = new FBH(firebase_base);
+    refsforall["connected"] = new FBH(firebase_connected_ips);
+    refsforall["ipchild"] = new FBH(window.firebase_ip_child);
+    refsforall["child"] = new FBH(firebase_child);
 };
