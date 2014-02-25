@@ -1,1 +1,6 @@
-<a href={{ pg.url }}>{{ pg.title }}</a>
+{% for pgz in site.pages %}
+    {% if pgz.url == include.pg %}
+        {% assign pag = pgz %}
+    {% endif %}
+{% endfor %}
+<a href={{ pag.url }}>{{ pag.title }}</a>

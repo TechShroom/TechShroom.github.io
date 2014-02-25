@@ -4,7 +4,7 @@
     </div>
     <div class="panel-body">
         {% for pg in site.posts %}
-            &bull; {% include post-link.html %}<br>
+            &bull; {% include post-link.html pg=pg.url %}<br>
         {% endfor %}
     </div>
 </div>
