@@ -3,7 +3,7 @@
         <h3 class="panel-title">Posts</h3>
     </div>
     <div class="panel-body">
-        {% for pg in site.posts %}
+        {% for pg in site.posts limit:5 %}
             &bull; {% include post-link.html pg=pg.url %}<br>
         {% endfor %}
     </div>
