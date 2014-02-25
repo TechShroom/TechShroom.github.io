@@ -1,7 +1,9 @@
 <div class="visible-xs">
-    <select onchange="if (this.value) window.location.href=this.value">
-    {% for pg in site.posts %}
-        <option value="{{ pg.url }}">{{ pg.title }}</option>
-    {% endfor %}
-    </select>
+    <center>
+        <select onchange="if (this.value) window.location.href=this.value">
+        {% for pg in site.posts %}
+            <option value="{{ pg.url }}">{{ pg.title }}</option>
+        {% endfor %}
+        </select>
+    </center>
 </div>
