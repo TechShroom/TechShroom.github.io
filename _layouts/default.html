@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <!DOCTYPE html>
@@ -7,28 +6,6 @@
   {% include header.html %}
   <body>
     {% include navbar.html %}
-    <div class="container">
-        <div class="row">
-            {% assign __align__col = col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-4 %}
-            <p>Using align {{ __align__col }}</p>
-            <div class="{{ __align__col }}">
-                <div class="panel panel-default">
-                  {% if page.title %}
-                    <div class="panel-heading">
-                      <h3 class="panel-title">{{ page.title }}</h3>
-                    </div>
-                  {% endif %}
-                  <div class="panel-body">
-                    {{ content }}
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="{{ __align__col }}">
-                {% include footer.html %}
-            </div>
-        </div>
-    </div>
+    {% include content.html defalign="col-xs-8 col-sm-offset-1" sidealign="col-xs-3" %}
   </body>
 </html>
