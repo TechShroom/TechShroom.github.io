@@ -30,6 +30,12 @@
           </ul>
         </li>
         -->
+        {% assign groups = "Home About Blog" | split: " " %}
+        {% assign glinks = "/index.html /about.html /index.html" | split: " " %}
+        {% assign active = page.group %}
+        {% for g in groups %}
+            <li{% if active != null and g == active %} class="active"{% endif %}><a href={{ glinks[forloop.index0] }}>{{ g }}</a></li>
+        {% endfor %}
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
