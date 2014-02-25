@@ -3,4 +3,8 @@
         {% assign pag = pgz %}
     {% endif %}
 {% endfor %}
-<a href={{ pag.url }}>{{ pag.title }}</a>
+{% assign pgtitle = pag.title %}
+{% if include.pgtitle != null %}
+    {% assign pgtitle = include.pgtitle %}
+{% endif %}
+<a href={{ pag.url }}>{{ pgtitle }}</a>
