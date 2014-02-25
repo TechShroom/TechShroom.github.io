@@ -25,8 +25,7 @@ var firebase_set_success = function(error) {
     } else {
         text = 'Success.';
     }
-    var newText = document.createTextNode(text + ' ' + firebase_child);
-    document.getElementById('fb-check').appendChild(newText);
+    console.log(text + ' URL is ' + firebase_url);
 };
 var firebase_url = 'https://incandescent-fire-7012.firebaseio.com/';
 var firebase_base = new Firebase(firebase_url);
