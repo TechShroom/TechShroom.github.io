@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Pages</h3>
+    </div>
+    <div class="panel-body">
+        {% for pg in site.pages %}
+            {% include post-link.html %}
+        {% endfor %}
+    </div>
+</div>
