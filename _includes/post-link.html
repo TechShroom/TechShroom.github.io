@@ -7,4 +7,8 @@
 {% if include.pgtitle != null %}
     {% assign pgtitle = include.pgtitle %}
 {% endif %}
+[% if pag == null %}
+<a href="#">Broken Link: Please Report!</a>
+{% else %}
 <a href={{ pag.url }}>{{ pgtitle }}</a>
+{% endif %}
