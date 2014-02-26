@@ -31,7 +31,7 @@
         </li>
         -->
         {% assign groups = "Home About Blog" | split: " " %}
-        {% assign glinks = "/index.html /about.html /index.html" | split: " " %}
+        {% assign glinks = "/index.html /about.html /blog.html" | split: " " %}
         {% assign active = page.group %}
         {% for g in groups %}
             <li{% if active != null and g == active %} class="active"{% endif %}><a href={{ glinks[forloop.index0] }}>{{ g }}</a></li>

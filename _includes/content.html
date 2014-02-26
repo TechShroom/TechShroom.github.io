@@ -1,3 +1,6 @@
+{% if page.layout-data == 'blog' %}
+    {% assign blogon = true %}
+{% endif %}
 <div class="container">
     {% include side-mobile.html %}
     <div class="row">
@@ -5,7 +8,7 @@
             <div class="panel panel-default">
                 {% if page.title %}
                     <div class="panel-heading">
-                        <h3 class="panel-title">{{ page.title }}</h3>
+                        <h3 class="panel-title"{% if blogon %} style="text-align: center"{% endif %}>{{ page.title }}</h3>
                     </div>
                 {% endif %}
                 <div class="panel-body">
@@ -13,9 +16,11 @@
                 </div>
             </div>
         </div>
-    <div class="{{ include.sidealign }} hidden-xs">
-        {% include posts-list.html %}
-    </div>
+    {% if blogon == false %}
+        <div class="{{ include.sidealign }} hidden-xs">
+            {% include posts-list.html %}
+        </div>
+    {% endif %}
   </div>
 </div>
 {% include footer.html %}
