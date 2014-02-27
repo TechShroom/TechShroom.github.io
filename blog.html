@@ -18,12 +18,12 @@ There {% if postc != 1 %}are{% else %}is{% endif %} {{ postc }} post{% if postc 
         </tr>
     </thead>
     <tbody>
-    {% for p in site.posts %}
+        {% for p in site.posts %}
             <tr onclick="window.location.href='{{ p.url }}'">
                 <td>{{ p.date | date: "%m/%d/%Y" }}</td>
                 <td>{{ p.title }}</td>
                 <td>{{ p.excerpt }}</td>
             </tr>
-    {% endfor %}
+        {% endfor %}
     </tbody>
 </table>
