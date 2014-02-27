@@ -4,7 +4,7 @@
 <div class="container">
     {% include side-mobile.html %}
     <div class="row">
-        <div class="{{ include.defalign }}">
+        <div{% if blogon == null %} class="{{ include.defalign }}"{% endif %}>
             <div class="panel panel-default">
                 {% if page.title %}
                     <div class="panel-heading">
