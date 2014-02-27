@@ -5,7 +5,7 @@ title: Blog
 group: Blog
 ---
 {% assign postc = site.posts | size %}
-<center><h4>A reverse chrono list of all the posts ever made. Warning: It's long.<br>
+<center><h4>A reverse chrono list of all the posts ever made.{% if postc > 10 %} Warning: It's long.{% endif %}<br>
 There {% if postc != 1 %}are{% else %}is{% endif %} {{ postc }} post{% if postc != 1 %}s{% endif %}.<h4></center>
 <br>
 <br>
