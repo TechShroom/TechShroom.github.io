@@ -16,11 +16,11 @@
                 </div>
             </div>
         </div>
-    {% if blogon == false %}
-        <div class="{{ include.sidealign }} hidden-xs">
-            {% include posts-list.html %}
-        </div>
-    {% endif %}
+        {% if blogon == null %}
+            <div class="{{ include.sidealign }} hidden-xs">
+                {% include posts-list.html %}
+            </div>
+        {% endif %}
   </div>
 </div>
 {% include footer.html %}
