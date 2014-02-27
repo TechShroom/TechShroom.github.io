@@ -3,9 +3,9 @@
         <select onchange="if (this.value) window.location.href=this.value">
             <option value="">Navigation</option>
             <optgroup label="Posts">
-            {% for pg in site.posts %}
-                <option value="{{ pg.url }}">{{ pg.title }}</option>
-            {% endfor %}
+                {% for pg in site.posts %}
+                    <option value="{{ pg.url }}">{{ pg.title }}</option>
+                {% endfor %}
             </optgroup>
         </select>
     </center>
