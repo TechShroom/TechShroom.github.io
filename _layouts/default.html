@@ -1,6 +1,8 @@
 ---
 ---
-
+{% if page.date != null %}
+    {% assign post = page %}
+{% endif %}
 <!DOCTYPE html>
 <html>
   {% include header.html %}
