@@ -4,7 +4,26 @@ layout-data: blog
 title: Blog
 group: Blog
 ---
-<center><h4>A reverse chrono list of all the posts ever made. Warning: It's long.<h4><center>
+{% assign postc = site.posts | size %}
+<center><h4>A reverse chrono list of all the posts ever made. Warning: It's long.<br>
+There {% if postc != 1 %}are{% else %}is{% endif %} {{ postc }} post{% if postc != 1 %}s{% endif %}.<h4></center>
 <br>
 <br>
-
+<table class="table table-bordered table-hover sortable">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Snippet</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for p in site.posts %}
+            <tr onclick="window.location.href='{{ p.url }}'">
+                <td>{{ p.date | date: "%m/%d/%Y" }}</td>
+                <td>{{ p.title }}</td>
+                <td>{{ p.excerpt }}</td>
+            </tr>
+    {% endfor %}
+    </tbody>
+</table>
