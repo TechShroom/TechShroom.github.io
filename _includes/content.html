@@ -1,10 +1,12 @@
 {% if page.layout-data == 'blog' %}
     {% assign blogon = true %}
+{% else %}
+    {% assign blogon = false %}
 {% endif %}
 <div class="container">
     {% include side-mobile.html %}
     <div class="row">
-        <div{% if blogon == null %} class="{{ include.defalign }}"{% endif %}>
+        <div{% if blogon == false %} class="{{ include.defalign }}"{% endif %}>
             <div class="panel panel-default">
                 {% if page.title %}
                     <div class="panel-heading">
@@ -16,7 +18,7 @@
                 </div>
             </div>
         </div>
-        {% if blogon == null %}
+        {% if blogon == false %}
             <div class="{{ include.sidealign }} hidden-xs">
                 {% include posts-list.html %}
             </div>
