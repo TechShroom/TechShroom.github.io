@@ -1,0 +1,7 @@
+{% assign list = "KCore" | split: " " %}
+{% assign desc = "Common Core for TechShroom" | split: "~~" %}
+<div class="list-group">
+{% for item in list %}
+    <center><a href="/{{ item }}/" class="list-group-item">{{ item }} &bull; {{ desc[forloop.index0] }}</a></center>
+{% endfor %}
+</div>

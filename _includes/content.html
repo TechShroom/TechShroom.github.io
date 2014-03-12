@@ -16,6 +16,9 @@
                 <div class="panel-body">
                     {{ content }}
                 </div>
+                {% if page.layout-data == 'main' %}
+                    {% include genprojlist.html %}
+                {% endif %}
             </div>
         </div>
         {% if blogon == false %}
