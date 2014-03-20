@@ -1,7 +1,11 @@
+---
+layout: post
+title: Problems with ForgeGradle, anyone?
+---
 Recently I've been starting up with Forge again. ForgeGradle is hard to work with. If you stumble across this looking for help, many of the helpful links I've extracted are below. I've also included some tips.
 
 Tips (check back for updates):
-* If you want source, run <code>gradle setupDecompWorkspace</code>, go to <code>~/.gradle/caches/minecraft/net/minecraftforge/forge/<version>/</code> and extract the contents of the <code>forgeSrc-<version>-source.jar<code> to a folder in your Forge project folder. Then just add the extracted files as source, and you're good to go!
+* If you want source, run <code>gradle setupDecompWorkspace</code>, go to <code>~/.gradle/caches/minecraft/net/minecraftforge/forge/<version>/</code> and extract the contents of the <code>forgeSrc-<version>-source.jar</code> to a folder in your Forge project folder. Then just add the extracted files as source, and you're good to go!
 
 Links:
 * [Modding With Forge and Eclipse](http://www.minecraftforum.net/topic/2413773-)
