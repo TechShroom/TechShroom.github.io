@@ -5,5 +5,19 @@ group: About
 ---
 Shameless steal from our main site.
 <div id="iframe-div">
-<iframe src="http://techshroom.com/About/" width="100%" height="600"></iframe>
+Loading...
 </div>
+<script src="js/jquery.xdomainajax.js"></script>
+<script>
+jQuery(document).ready(function ($){
+    var url = "http://techshroom.com/About/";
+    var get = $.get(url);
+    get.done(function (data) {
+        var $data = $($.parseHTML(data.results[0]));
+        $("#iframe-div").html($data.find("#main").get(0));
+    });
+    get.fail(function () {
+        $("#iframe-div").text("Failed GET from " + url);
+    });
+});
+</script>
