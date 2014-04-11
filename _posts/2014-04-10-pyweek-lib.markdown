@@ -1,3 +1,7 @@
+---
+title: Pyweek Lib
+layout: post
+---
 Here's our pyweek lib:
 [Tutorialish file](/pyweek/main.py)
 [Compat](/pyweek/2to3compat.py)
