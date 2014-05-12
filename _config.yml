@@ -13,5 +13,5 @@ exclude:
 title: TechShroom Studios
 include:
 - _stylesheets
-permalink: pretty#/:categories/:year/:month/:day/:title/
+permalink: pretty
 markdown: rdiscount
