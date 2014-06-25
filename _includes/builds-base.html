@@ -1,7 +1,7 @@
 <!-- Required vars: repo-ref of build, first commit for builds -->
 <script>
     var BUILD_DATA = {};
-    BUILD_DATA.repo = "{% repo_ref %}";
-    BUILD_DATA.commit = "{% commit_ref %}";
+    BUILD_DATA.repo = "{{ repo_ref }}";
+    BUILD_DATA.commit = "{{ commit_ref }}";
 </script>
 <script data-main="js/init.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
