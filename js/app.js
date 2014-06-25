@@ -1,9 +1,9 @@
 // Builds Manager © 2014 TechShroom Studios
-define(["jquery"], function ($) {
+define(["jquery"], function () {
     var appns = {};
     (function () {
         appns.init = function () {
-            console.log($);
+            console.log(BUILD_DATA);
         };
     })();
     return appns;
