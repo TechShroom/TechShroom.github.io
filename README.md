@@ -4,6 +4,6 @@ TODO
 =====
 
  - [ ] Finish the dev build system
-   - [ ] Add commit reader
+   - [X] Add commit reader
    - [ ] Add pages generated for each project
    - [ ] Bug checks
