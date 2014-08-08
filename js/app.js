@@ -1,5 +1,6 @@
 // Builds Manager © 2014 TechShroom Studios
-define(["jquery"], function ($) {
+define(["jquery" ,"xdomain.require.js"], function ($, xd) {
+    $.ajax = xd.wrapAjax($);
     var appns = {};
     (function () {
         appns.init = function () {
