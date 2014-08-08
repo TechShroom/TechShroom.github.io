@@ -1,9 +1,13 @@
 <!-- Required vars: repo-ref of build, first commit for builds -->
 <script>
-    var BUILD_DATA = {};
-    BUILD_DATA.repo = "{{ include.repo }}";
-    BUILD_DATA.owner = "{{ include.owner }}";
-    BUILD_DATA.dir = "{{ include.dir }}";
+    var BUILD_DATA = BUILD_DATA || {};
+    (function () {
+        var bd_local = {};
+        bd_local.repo = "{{ include.repo }}";
+        bd_local.owner = "{{ include.owner }}";
+        bd_local.dir = "{{ include.dir }}";
+        BUILD_DATA.{{ include.repo }} = bd_local;
+    })();
 </script>
 <script data-main="js/init.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
 <div id="builds-{{ include.owner }}-{{ include.repo }}"></div>
