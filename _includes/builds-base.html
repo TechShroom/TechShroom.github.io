@@ -1,2 +1,7 @@
 <script data-main="js/init.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
-<div class="build-div" id="builds-{{ include.owner }}-{{ include.repo }}" repo="{{ include.repo }}" owner="{{ include.owner }}" rdir="{{ include.dir }}"></div>
+<div id="buildinfo" class="h2">
+  {{ include.repo }}'s CI builds:
+</div>
+<div class="build-div" id="builds-{{ include.owner }}-{{ include.repo }}" repo="{{ include.repo }}" owner="{{ include.owner }}" rdir="{{ include.dir }}">
+  Loading {{ include.repo }}'s builds...
+</div>
