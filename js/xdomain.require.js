@@ -62,4 +62,4 @@ define([], function () {
         };
     };
     return xd;
-}
+});
