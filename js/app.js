@@ -4,14 +4,15 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
     var appns = {};
     appns.init = function () {
         $('.build-div').each(function (i, it) {
-            console.log(it);
-            var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + BUILD_DATA.dir + '/links.html');
-            var $div = $('#builds-' + BUILD_DATA.owner + '-' + BUILD_DATA.repo);
+            var $it = $(it);
+            var dir = $it.attr('dir');
+            console.log($it);
+            var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
             get.done(function (data) {
-                $div.html($.parseHTML(data.results[0]));
+                $it.html($.parseHTML(data.results[0]));
             });
             get.fail(function () {
-                $div.text("Failed GET from " + url);
+                $it.text("Failed GET from " + url);
             });
         });
     }
