@@ -6,7 +6,7 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
         $('.build-div').each(function (i, it) {
             var $it = $(it);
             var dir = $it.attr('dir');
-            console.log($it);
+            console.log('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
             var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
             get.done(function (data) {
                 $it.html($.parseHTML(data.results[0]));
