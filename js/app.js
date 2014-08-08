@@ -13,7 +13,7 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
             get.fail(function () {
                 $div.text("Failed GET from " + url);
             });
-        };
+        });
     }
     return appns;
 });
