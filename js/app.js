@@ -3,7 +3,7 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
     $.ajax = xd.wrapAjax($);
     var appns = {};
     appns.init = function () {
-            var get = $.get(url);
+            var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + BUILD_DATA.dir + '/links.html');
             var $div = $('#builds-' + BUILD_DATA.owner + '-' + BUILD_DATA.repo);
             get.done(function (data) {
                 $div.html($.parseHTML(data.results[0]));
