@@ -21,7 +21,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
             var counter = 0;
             var timer = setInterval(function () {
                 var dots = "";
-                for (var i = 0; i < counter, i++) {
+                for (var i = 0; i < counter; i++) {
                     dots = dots + '.';
                 }
                 $it.text($ittext + dots);
