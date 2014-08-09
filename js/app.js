@@ -29,7 +29,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                 if (counter > 5) {
                     counter = 0;
                 }
-            }, 200);
+            }, 150);
             
             var dir = $it.attr('rdir');
             var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
