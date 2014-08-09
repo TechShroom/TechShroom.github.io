@@ -23,9 +23,23 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
                 $it.children("ul").addClass("list-group");
-                $it.children("ul").each(function (i, it2) {
+                $it.children("ul").each(function (j, it2) {
                     var $it2 = $(it2);
-                    $it2.children("li").addClass("list-group-item");
+                    var $child = $it2.children("li");
+                    $child.addClass("list-group-item");
+                    $child.each(function (k, it3) {
+                        $(it3).children("a").each(function (x, it4) {
+                            var $it4 = $(it4);
+                            
+                            var shaSize = 7;
+                            var inverseShaSize = 40 - 7;
+                            $it4.text($it4.text().replace(new RegExp("([a-fA-F0-9]{"
+                                                                    +shaSize+","+shaSize+
+                                                                    "})[a-fA-F0-9]{"
+                                                                    +inverseShaSize+","+inverseShaSize+
+                                                                    "}","$1")));
+                        });
+                    });
                 });
             });
             get.fail(function () {
