@@ -3,9 +3,15 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
     $.ajax = xd.wrapAjax($);
     var appns = {};
     function toggleFunc($it) {
-        // $it -> button with span icon
+        if ($it.data('moving')) {
+            // prevent derps
+            return;
+        }
+        $it.data('moving', true);
         $it.children("span").toggleClass("glyphicon-plus glyphicon-minus");
-        $it.parent().next().toggle("blind", {}, 200);
+        $it.parent().next().toggle("blind", {}, 200, function () {
+            $it.data('moving', false);
+        });
     };
     appns.init = function () {
         var divs = $('.build-div');
