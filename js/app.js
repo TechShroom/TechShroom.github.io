@@ -71,7 +71,8 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                             ")</a> "+
                                                             $(firstLi).children("p").text()+
                                                             "</li>";
-                    console.log(html);
+                    var parse = $.parseHTML(html);
+                    console.log(parse);
                     $it2.prepend($.parseHTML(html));
                 });
             });
