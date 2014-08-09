@@ -17,10 +17,10 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
                 $it.children("ul").addClass("list-group");
-                $it.children("ul").each(function (i, it2){
+                $it.children("ul").each(function (i, it2) {
                     var $it2 = $(it2);
                     $it2.children("li").addClass("list-group-item");
-                }
+                });
             });
             get.fail(function () {
                 $it.text("Failed GET from " + url);
