@@ -59,7 +59,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                                     +inverseShaSize+","+inverseShaSize+
                                                                     "}"), "$1"));
                             if (it3 === firstLi) {
-                                firstLiText = $(it3).children("p").text();
+                                firstLiText = $it4.text();
                                 firstLiLink = $it4.attr('href');
                             }
                         });
@@ -70,7 +70,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                             '">Latest ('+
                                                             firstLiText+
                                                             ")</a>"+
-                                                            $(firstLi).children().text()+
+                                                            $(firstLi).children("p").text()+
                                                             "</li>");
                 });
             });
