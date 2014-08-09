@@ -17,8 +17,25 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
         var divs = $('.build-div');
         divs.each(function (i, it) {
             var $it = $(it);
+            var $ittext = $it.text();
+            var counter = 0;
+            var timer = setInterval(function () {
+                var dots = "";
+                for (var i = 0; i < counter, i++) {
+                    dots = dots + '.';
+                }
+                $it.text($ittext + dots);
+                counter++;
+                if (counter > 5) {
+                    counter = 0;
+                }
+            }, 200);
+            
             var dir = $it.attr('rdir');
             var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
+            get.always(function () {
+                clearInterval(timer);
+            });
             get.done(function (data) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
