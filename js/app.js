@@ -71,9 +71,9 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                             '/latest.'+ext+
                                                             '">Latest ('+
                                                             firstLiText+
-                                                            ")</a> "+
+                                                            ")</a> <p>"+
                                                             $(firstLi).children("p").html()+
-                                                            "</li>";
+                                                            "</p></li>";
                     var parse = $.parseHTML(html);
                     console.log(parse);
                     $it2.prepend($.parseHTML(html));
