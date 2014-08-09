@@ -1,9 +1,9 @@
 <script data-main="js/init.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
 <div id="buildinfo" class="h2">
+  {{ include.repo }}'s CI builds:
   <button type="button" class="btn btn-default btn-sm build-toggle" style="text-align: center;">
     <span class="glyphicon glyphicon-plus" style="text-align: center;"></span>
   </button>
-  {{ include.repo }}'s CI builds:
 </div>
 <div class="build-div well well-sm" id="builds-{{ include.owner }}-{{ include.repo }}" repo="{{ include.repo }}" owner="{{ include.owner }}" rdir="{{ include.dir }}">
   Loading {{ include.repo }}'s builds...
