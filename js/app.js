@@ -5,9 +5,9 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
     function toggleFunc($it) {
         // $it -> button with span icon
         $it.children("span").toggleClass("glyphicon-plus glyphicon-minus");
-        $it.parent().next().toggle(400, {
+        $it.parent().next().toggle("slide", {
              direction: "right"
-         });
+         }, 400);
     };
     appns.init = function () {
         var divs = $('.build-div');
