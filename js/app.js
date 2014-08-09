@@ -40,6 +40,9 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
                 $it.children("ul").addClass("list-group");
+                var firstLi = $child[0];
+                var firstLiText = "no first";
+                var firstLiLink = "javascript:alert('Broken repo')";
                 $it.children("ul").each(function (j, it2) {
                     var $it2 = $(it2);
                     var $child = $it2.children("li");
@@ -55,8 +58,19 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                                     "})[a-fA-F0-9]{"
                                                                     +inverseShaSize+","+inverseShaSize+
                                                                     "}"), "$1"));
+                            if (it3 === firstLi) {
+                                firstLiText = $it4.text();
+                                firstLiLink = $it4.attr('href');
+                            }
                         });
                     });
+                    $it2.prepend('<li class="list-group-item><a href="'+
+                                                            firstLiLink+
+                                                            '">Latest ('+
+                                                            firstLiText+
+                                                            ")</a>"+
+                                                            $(firstLi).text()+
+                                                            "</li>");
                 });
             });
             get.fail(function () {
