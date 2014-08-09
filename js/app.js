@@ -1,12 +1,13 @@
 // Builds Manager © 2014 TechShroom Studios
 define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
-    console.log($.ui);
     $.ajax = xd.wrapAjax($);
     var appns = {};
     function toggleFunc($it) {
         // $it -> button with span icon
         $it.children("span").toggleClass("glyphicon-plus glyphicon-minus");
-        $it.parent().next().toggle(400);
+        $it.parent().next().toggle(400, {
+             direction: "right"
+         });
     };
     appns.init = function () {
         var divs = $('.build-div');
