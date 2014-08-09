@@ -59,17 +59,18 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                                     +inverseShaSize+","+inverseShaSize+
                                                                     "}"), "$1"));
                             if (it3 === firstLi) {
-                                firstLiText = $it4.text();
+                                firstLiText = $it4.children("p").text();
                                 firstLiLink = $it4.attr('href');
                             }
                         });
                     });
-                    $it2.prepend('<li class="list-group-item><a href="'+
+                    console.log(firstLiLink);
+                    $it2.prepend('<li class="list-group-item> <a href="'+
                                                             firstLiLink+
                                                             '">Latest ('+
                                                             firstLiText+
                                                             ")</a>"+
-                                                            $(firstLi).text()+
+                                                            $(firstLi).children().text()+
                                                             "</li>");
                 });
             });
