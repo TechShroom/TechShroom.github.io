@@ -18,6 +18,8 @@ define(["jquery" ,"js/xdomain.require.js"], function ($, xd) {
             get.done(function (data) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
+                $it.children("ul").addClass("list-group");
+                $it.children("li").addClass("list-group-item");
             });
             get.fail(function () {
                 $it.text("Failed GET from " + url);
