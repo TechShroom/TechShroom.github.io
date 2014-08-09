@@ -64,14 +64,15 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                             }
                         });
                     });
-                    console.log(firstLiLink);
-                    $it2.prepend($.parseHTML('<li class="list-group-item> <a href="'+
+                    var html = '<li class="list-group-item> <a href="'+
                                                             firstLiLink+
                                                             '">Latest ('+
                                                             firstLiText+
                                                             ")</a> "+
                                                             $(firstLi).children("p").text()+
-                                                            "</li>"));
+                                                            "</li>";
+                    console.log(html);
+                    $it2.prepend($.parseHTML(html));
                 });
             });
             get.fail(function () {
