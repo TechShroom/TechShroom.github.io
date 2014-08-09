@@ -1,5 +1,5 @@
 // Builds Manager © 2014 TechShroom Studios
-define(["jqui" ,"js/xdomain.require.js"], function ($, xd) {
+define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
     console.log($.ui);
     $.ajax = xd.wrapAjax($);
     var appns = {};
