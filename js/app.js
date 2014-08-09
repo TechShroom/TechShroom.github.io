@@ -64,7 +64,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                             }
                         });
                     });
-                    var html = '<li class="list-group-item> <a href="'+
+                    var html = '<li class="list-group-item"> <a href="'+
                                                             firstLiLink+
                                                             '">Latest ('+
                                                             firstLiText+
