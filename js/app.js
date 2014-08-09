@@ -69,7 +69,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                             firstLiLink+
                                                             '">Latest ('+
                                                             firstLiText+
-                                                            ")</a>"+
+                                                            ")</a> "+
                                                             $(firstLi).children("p").text()+
                                                             "</li>");
                 });
