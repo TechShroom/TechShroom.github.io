@@ -37,7 +37,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                                                                     +shaSize+","+shaSize+
                                                                     "})[a-fA-F0-9]{"
                                                                     +inverseShaSize+","+inverseShaSize+
-                                                                    "}","$1")));
+                                                                    "}"), "$1"));
                         });
                     });
                 });
