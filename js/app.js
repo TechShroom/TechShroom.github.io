@@ -32,7 +32,8 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
             }, 150);
             
             var dir = $it.attr('rdir');
-            var get = $.get('http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir + '/links.html');
+            var linkFolder = 'http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir;
+            var get = $.get(linkFolder + '/links.html');
             get.always(function () {
                 clearInterval(timer);
             });
@@ -64,8 +65,10 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                             }
                         });
                     });
+                    var ext = firstLiLink.replace(/.+\.(.+)$/);
                     var html = '<li class="list-group-item"> <a href="'+
-                                                            firstLiLink+
+                                                            linkFolder+
+                                                            '/latest.'+ext+
                                                             '">Latest ('+
                                                             firstLiText+
                                                             ")</a> "+
