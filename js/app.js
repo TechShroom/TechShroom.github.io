@@ -65,7 +65,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                             }
                         });
                     });
-                    var ext = firstLiLink.replace(/.+\.(.+)$/);
+                    var ext = firstLiLink.replace(/.+\.(.+)$/, "$1");
                     var html = '<li class="list-group-item"> <a href="'+
                                                             linkFolder+
                                                             '/latest.'+ext+
