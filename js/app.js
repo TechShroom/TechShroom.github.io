@@ -40,12 +40,12 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                 $it.hide();
                 $it.html($.parseHTML(data.results[0]));
                 $it.children("ul").addClass("list-group");
-                var firstLi = $child[0];
-                var firstLiText = "no first";
-                var firstLiLink = "javascript:alert('Broken repo')";
                 $it.children("ul").each(function (j, it2) {
                     var $it2 = $(it2);
                     var $child = $it2.children("li");
+                    var firstLi = $child[0];
+                    var firstLiText = "no first";
+                    var firstLiLink = "javascript:alert('Broken repo')";
                     $child.addClass("list-group-item");
                     $child.each(function (k, it3) {
                         $(it3).children("a").each(function (x, it4) {
