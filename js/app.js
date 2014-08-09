@@ -9,7 +9,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
         }
         $it.data('moving', true);
         $it.children("span").toggleClass("glyphicon-plus glyphicon-minus");
-        $it.parent().next().toggle("blind", {}, 500, function () {
+        $it.parent().next().toggle("explode", {}, 500, function () {
             $it.data('moving', false);
         });
     };
