@@ -18,7 +18,7 @@ After you check MCP, then check whatever the mod depends upon. If it's nothing, 
 
 Once all that is checked, then you know that the stage is set for the mod author to update. But you still can't even touch on that subject. It's against the rules.
 MCF ["Mapping and Modding Rules"](http://www.minecraftforum.net/forums/forums/forum-discussion-info/2128381-mapping-and-modding-rules):
-`Do not ask, demand or pressure creators to update their mods, this includes asking if/when there will be an update, and applies well for downgrades`
+> Do not ask, demand or pressure creators to update their mods, this includes asking if/when there will be an update, and applies well for downgrades
 
 So just don't ask on the forums. But at least now you can tell when you should expect an update.
 
