@@ -16,6 +16,12 @@
                 <div class="panel-body">
                     {{ content }}
                 </div>
+                
+                <div class="panel-body">
+                    {% if comments == true %}
+                        {% include gencomments.html %}
+                    {% endif %}
+                </div>
                 {% if page.layout-data == 'main' %}
                     {% include genprojlist.html %}
                 {% endif %}
