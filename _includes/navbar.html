@@ -36,11 +36,18 @@
                 {% if post != null and active == null %}
                     {% assign active = "Blog" %}
                 {% endif %}
+                {% assign hasactgrp = "no" %}
                 {% for g in groups %}
-                    <li{% if active != null and g == active %} class="active"{% endif %}>
-                        <a href={{ glinks[forloop.index0] }}>{{ g }}</a>
+                    <li{% if active != null and g == active %} class="active"{% assign hasactgrp = "yes" %}{% endif %}>
+                        <a href="{{ glinks[forloop.index0] }}">{{ g }}</a>
                     </li>
                 {% endfor %}
+                {% if hasactgrp == "no" %}
+                    {% assign hasactgrp = "yes" %}
+                    <li class="active">
+                        <a href="#">{{ active }}</a>
+                    </li>
+                {% endif %}
             </ul>
       
             <!-- For later
