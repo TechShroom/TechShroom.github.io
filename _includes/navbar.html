@@ -44,8 +44,12 @@
                 {% endfor %}
                 {% if hasactgrp == "no" %}
                     {% assign hasactgrp = "yes" %}
+                    {% assign actgrpurl = "#" %}
+                    {% if page.groupurl != null %}
+                        {% assign actgrpurl = page.groupurl %}
+                    {% endif %}
                     <li class="active">
-                        <a href="#">{{ active }}</a>
+                        <a href="{{ actgrpurl }}">{{ active }}</a>
                     </li>
                 {% endif %}
             </ul>
