@@ -3,6 +3,11 @@
 {% else %}
     {% assign blogon = false %}
 {% endif %}
+{% if page.comments == 'on' %}
+    {% assign comments = true %}
+{% else %}
+    {% assign comments = false %}
+{% endif %}
 <div class="container">
     {% include side-mobile.html %}
     <div class="row">
