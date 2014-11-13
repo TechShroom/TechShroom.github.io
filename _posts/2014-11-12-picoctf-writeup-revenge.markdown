@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [PicoCTF 2014/Writeup] Revenge of the Bleichenbacher
+title: PicoCTF 2014/Writeup: Revenge of the Bleichenbacher
 ---
 This was a crypto challenge for 170 points. In order to get the flag, you need to forge a RSA signature for your command.
 
