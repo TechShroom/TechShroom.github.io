@@ -27,7 +27,7 @@ This looks something like:
 import gmpy2
 from gmpy2 import mpz
 from hash import sha1
-message = "cat" # ls first time
+message = "cat flag" # ls first time
 messagesha = sha1(message).hexdigest() # sha1 of message
 targetsig = "0001" + "f" * 8 + "00" + messagesha + "f" * 714 # target signature
 targethex = int(targetsig, 16) # target signature, converted to an int
@@ -37,3 +37,5 @@ icbrt = gmpy2.iroot(mpz(targethex), 3) # integer cube root
 perfectcube = icbrt[0] ** 3 # cube cube root
 print(hex(perfectcube)) # print hex value, the result
 {% endhighlight %}
+
+Using this to generate an `ls` signature and a `cat flag` signature, I was able to get the flag "arent_signature_forgeries_just_great"
