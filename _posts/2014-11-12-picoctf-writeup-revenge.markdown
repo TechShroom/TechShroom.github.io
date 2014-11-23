@@ -24,18 +24,7 @@ That's a pretty big flaw. Those 714 garbage characters are enough to generate a 
 
 This looks something like:
 {% highlight python3 %}
-import gmpy2
-from gmpy2 import mpz
-from hash import sha1
-message = "cat flag" # ls first time
-messagesha = sha1(message).hexdigest() # sha1 of message
-targetsig = "0001" + "f" * 8 + "00" + messagesha + "f" * 714 # target signature
-targethex = int(targetsig, 16) # target signature, converted to an int
-icbrt = gmpy2.iroot(mpz(targethex), 3) # integer cube root
-# note: icbrt is a tuple of (result, exact).
-# exact is True if it is a perfect cube root, False otherwise
-perfectcube = icbrt[0] ** 3 # cube cube root
-print(hex(perfectcube)) # print hex value, the result
+{% include revengehack.py %}
 {% endhighlight %}
 
 Using this to generate an `ls` signature and a `cat flag` signature, I was able to get the flag "arent_signature_forgeries_just_great"
