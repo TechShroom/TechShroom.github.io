@@ -12,7 +12,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
         $it.parent().next().toggle("blind", {}, 500, function () {
             $it.data('moving', false);
         });
-    };
+    }
     appns.init = function () {
         var divs = $('.build-div');
         divs.each(function (i, it) {
@@ -33,7 +33,8 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
             
             var dir = $it.attr('rdir');
             var linkFolder = 'http://techshroom.com/non-wp/uploads/travis-ci/commital/' + dir;
-            var get = $.get(linkFolder + '/links.html');
+            var url = linkFolder + '/links.html';
+            var get = $.get(url);
             get.always(function () {
                 clearInterval(timer);
             });
@@ -54,10 +55,10 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
                             
                             var shaSize = 7;
                             var inverseShaSize = 40 - 7;
-                            $it4.text($it4.text().replace(new RegExp("([a-fA-F0-9]{"
-                                                                    +shaSize+","+shaSize+
-                                                                    "})[a-fA-F0-9]{"
-                                                                    +inverseShaSize+","+inverseShaSize+
+                            $it4.text($it4.text().replace(new RegExp("([a-fA-F0-9]{"+
+                                                                     shaSize+","+shaSize+
+                                                                    "})[a-fA-F0-9]{"+
+                                                                     inverseShaSize+","+inverseShaSize+
                                                                     "}"), "$1"));
                             if (it3 === firstLi) {
                                 firstLiText = $it4.text();
@@ -86,6 +87,6 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
         btns.click(function () {
             toggleFunc($(this));
         });
-    }
+    };
     return appns;
 });
