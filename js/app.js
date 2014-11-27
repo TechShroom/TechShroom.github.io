@@ -87,6 +87,7 @@ define(["jqui" ,"js/xdomain.require.js"], function ($undef, xd) {
         btns.click(function () {
             toggleFunc($(this));
         });
+        btns.disableSelection();
     };
     return appns;
 });
