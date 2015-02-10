@@ -7,4 +7,4 @@ Generic Hendrix, Version 1.0 is here! This tool allows you add generic signature
 
 In the future there are plans to automate the generic signature data resolving, allowing it to be included as part of a standard decompilation tool.
 
-You can get version 1.0 right [here]({% include localmaven.html ref="com.techshroom:GenericHendrix:1.0.0" host="" %}). A Getting Started guide is available [here]().
+You can get version 1.0 right [here]({% include localmaven.html ref="com.techshroom:GenericHendrix:1.0.0" host="" %}). A Getting Started guide is available [here](/docs/generic-hendrix/guides/manual.md).
