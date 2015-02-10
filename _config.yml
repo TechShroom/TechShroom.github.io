@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: true
 exclude:
 - bin
 - config.rb
