@@ -1,0 +1,19 @@
+{% if include.ref contains '@' %}
+    {% assign refsplit_ext = include.ref|split:'@' %}
+    {% assign extension = refsplit_ext[0] %}
+    {% assign refdata = refsplit_ext[1] %}
+{% else %}
+    {% assign extension = "jar" %}
+    {% assign refdata = include.ref %}
+{% endif %}
+{% assign sref = refdata | split:':' %}
+{% assign group = sref[0] %}
+{% assign name = sref[1] %}
+{% assign version = sref[2] %}
+{% if sref.size == 4 %}
+    {% assign classifierData = sref[3]|prepend:'-' %}
+{% else %}
+    {% assign classifierData = "" %}
+{% endif %}
+{% comment %} The actual url format, all that is actually output from here {% endcomment %}
+{{ include.host }}/downloads/maven/{{ group | replace:'.','/' }}/{{ name }}/{{ version }}/{{ name }}-{{ version }}{{ classifierData }}.{{ extension }}
