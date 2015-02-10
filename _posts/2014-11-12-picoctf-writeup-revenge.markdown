@@ -23,8 +23,6 @@ However, this doesn't check that there's nothing after the sha1. So you can actu
 That's a pretty big flaw. Those 714 garbage characters are enough to generate a perfect cube. So, the hack is simply creating **0001** + `"f" * 8` + **00** + sha1 (40 chars) + `"f" * 714`, and then having something like gmpy give you the floored cube root of that number (this works because the floored cube root has a perfect cube that is valid). Cube that, and you have your forged signature!
 
 This looks something like:
-{% highlight python3 %}
-{% include revengehack.py %}
-{% endhighlight %}
+<pre>{% include revengehack.py %}</pre>
 
 Using this to generate an `ls` signature and a `cat flag` signature, I was able to get the flag "arent_signature_forgeries_just_great"

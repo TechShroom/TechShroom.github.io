@@ -1,4 +1,4 @@
-highlighter: true
+# highlighter: true # disabled until rouge supported on git-pages
 exclude:
 - bin
 - config.rb
