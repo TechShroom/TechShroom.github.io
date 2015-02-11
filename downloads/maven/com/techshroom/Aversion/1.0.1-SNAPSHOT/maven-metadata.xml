@@ -2,12 +2,12 @@
 <metadata>
   <groupId>com.techshroom</groupId>
   <artifactId>Aversion</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>1.0.0-SNAPSHOT</version>
-      <version>1.0.1-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20150211.075149</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20150211075149</lastUpdated>
   </versioning>
 </metadata>
