@@ -3,7 +3,7 @@
 {% else %}
     {% assign blogon = false %}
 {% endif %}
-{% if page.comments == 'on' %}
+{% if page.comments == 'on' or post != null %}
     {% assign comments = true %}
 {% else %}
     {% assign comments = false %}
