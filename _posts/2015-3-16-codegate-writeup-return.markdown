@@ -14,33 +14,33 @@ Command: Something that did a binary search with `./return`.
 Flag: `hohoqqqz`
 
 `binaryreturn.py` (target: Python 2.7):
-```
-import subprocess
-def bsearch(regstr):
-    first = ord(' ')
-    last = ord('~')
-    found = 'NOPE'
 
-    while first<=last and found=='NOPE':
-        midpoint = (first + last)//2
-        midstr = chr(midpoint)
-        print 'testing:',midstr,' [onthewhole:',regstr+midstr,']'
-        ret = subprocess.call(['./return', regstr+midstr])
-        print 'test:',midstr,'is',ret
-        if ret == 0:
-            found = midstr
-        elif ret > 127:
-            last = midpoint-1
-        else:
-            first = midpoint+1
+    import subprocess
+    def bsearch(regstr):
+        first = ord(' ')
+        last = ord('~')
+        found = 'NOPE'
 
-    return found
+        while first<=last and found=='NOPE':
+            midpoint = (first + last)//2
+            midstr = chr(midpoint)
+            print 'testing:',midstr,' [onthewhole:',regstr+midstr,']'
+            ret = subprocess.call(['./return', regstr+midstr])
+            print 'test:',midstr,'is',ret
+            if ret == 0:
+                found = midstr
+            elif ret > 127:
+                last = midpoint-1
+            else:
+                first = midpoint+1
 
-import os
-os.chdir('/home/return')
-s = 'h'
-while len(s)<10:
-    s += bsearch(s)
-    print 'on:',s
-print s
-```
+        return found
+
+    import os
+    os.chdir('/home/return')
+    s = 'h'
+    while len(s)<10:
+        s += bsearch(s)
+        print 'on:',s
+    print s
+
