@@ -15,7 +15,25 @@
             <div class="panel panel-default">
                 {% if page.title %}
                     <div class="panel-heading">
-                        <h3 class="panel-title"{% if blogon %} style="text-align: center"{% endif %}>{{ page.title }}</h3>
+                        <div id="wrapper" style="overflow: auto">
+                            {% if post != null and page.previous != null %}
+                                <a href="{{ page.previous.url }}" style="text-align: right; float: left">
+                                    <span class="glyphicon glyphicon-chevron-left">
+                                    </span>
+                                    {{ page.previous.title }}
+                                </a>
+                            {% endif %}
+                            {% if post != null and page.next != null %}
+                                <a href="{{ page.next.url }}" style="text-align: left; float: right">
+                                    {{ page.next.title }}
+                                    <span class="glyphicon glyphicon-chevron-right">
+                                    </span>
+                                </a>
+                            {% endif %}
+                        </div>
+                        <h3 class="panel-title"{% if blogon or post != null %} style="text-align: center"{% endif %}>
+                            {{ page.title }}
+                        </h3>
                     </div>
                 {% endif %}
                 <div class="panel-body">
