@@ -6,7 +6,7 @@ Recently I've been starting up with Forge again. ForgeGradle is hard to work wit
 
 Tips (check back for updates):
 
- - If you want source, run <code>gradle setupDecompWorkspace</code>, go to <code>~/.gradle/caches/minecraft/net/minecraftforge/forge/&lt;version&gt;/</code> and extract the contents of the <code>forgeSrc-&lt;version&gt;-source.jar</code> to a folder in your Forge project folder. Then just add the extracted files as source, and you're good to go!
+ - ~~If you want source, run <code>gradle setupDecompWorkspace</code>, go to <code>~/.gradle/caches/minecraft/net/minecraftforge/forge/&lt;version&gt;/</code> and extract the contents of the <code>forgeSrc-&lt;version&gt;-source.jar</code> to a folder in your Forge project folder. Then just add the extracted files as source, and you're good to go!~~ Largely obsolete, it works well now.
 
 Links:
 
