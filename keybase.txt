@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/kenzierocks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://techshroom.github.io
+  * I am kenzierocks (https://keybase.io/kenzierocks) on keybase.
+  * I have a public key with fingerprint D1DD DB04 77B1 90ED 52AC  71A1 421A 3DFA E5DF 067A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d1dddb0477b190ed52ac71a1421a3dfae5df067a",
+            "host": "keybase.io",
+            "key_id": "421a3dfae5df067a",
+            "kid": "0101a990171630b240d8775234f69dd1312ad05653bd6f0287325958c03b9e610ffb0a",
+            "uid": "dab7c583e77ee5130eb7584a56231a19",
+            "username": "kenzierocks"
+        },
+        "service": {
+            "hostname": "techshroom.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434605184,
+    "expire_in": 157680000,
+    "prev": "e115b56c7d796a48251daf9a132afb190fa139bb71a59acbd2efa8eec04e19bd",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIqAnicbZJrSBVBFMevlUWWYGT1oYjcih7XZGZ3Zx+GFojR2x4WRullZmf23u3m
+7m131coyM4QeCEEFmVGURQ+0ICNItKzUHmbU7fGliBIC+9SDCCKoZq2+NV9m5pz/
++c05c053+vBQWkrptDFi2YQde1L6bq+oCK2rW19bLRCHbhdyq4U4G9pMy44yN+Fa
+ti/kChRSSgmQVZVAHTCKRGyoEENZhFiiJmaImkBRsZAtxBwviOAYgj2WYzncxi8R
+i3Lrf/TxIQeAAGJdB1CFigSIKAOqqSoSJdlUdEqhBEVMAVKQRKhiAlFTJRHpSDOA
+RHSmQGCaBAS4iiEcxUQ1kCYxVWUMQQkwoiJNxkgRJZ62Hgg95tq4nA3lau+wmOsY
+cU/YlS1wR6VlsOAXgmL+inxmxLyY6zjlOVHLj1WQP6UlXMd3DGcLV8R8P+HlBgR/
+eyIIqWIk8hcWIZZN+ZfyiErmepZjC7mQKw3fCuhQlmQFIKjJ2QLblrBcFrECBVIV
+DfAVvMMqOZJBiAhSDJWquoJlTUSQYlPHUBKxGfTG5EedEN4cpGODUJGZWGPMADKD
+OqFCUN5W2+FskeeJo5zpWVEb+xUuE3bd6do0IpSSFhqZOiyYilDa6Ix/s3I6fdSv
+zfd3e/sWj63a5h16VtLyNa9kTNGDecUH9574MuVc0WfQdiy8IDxx3slPWcu6Rhy7
+2vTzbGNq87j6ZGlhsuTNxu62hv16ad7rpQXX32XecqsLu+sis64JdfWRreHr+XjR
+j6ajxzfEW2suXzvwcPaL6NzJS9pjqxfmNW5sFQsu3ATrTnYuGTzXSB4/ej4n69LA
+q5mFO9e02VcnPclv6ZyvvlzanlyYUbO/5O3K5PgrPbXLtRn59Et/Tf2HqQPzzz5N
+mbqWvvx4pPzGgjU9hZnj9w5qXcvPKGVKNDm9eWDcpO+9F6VV/cXhwx2HYVNlZjG9
+d/7pt8ezvr8fbOjrPd3fcSp8N/StOU5/A7mDKpE=
+=/sYX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kenzierocks
+
+==================================================================
