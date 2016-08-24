@@ -14,4 +14,4 @@ title: TechShroom Studios
 include:
 - _stylesheets
 permalink: /:categories/:year/:month/:day/:title/
-markdown: rdiscount
+markdown: kramdown
