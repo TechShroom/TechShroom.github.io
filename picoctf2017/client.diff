@@ -1,0 +1,40 @@
+diff --git a/client.js b/fixed_client.js
+index e2acbda..2371ded 100644
+--- a/client.js
++++ b/fixed_client.js
+@@ -330,10 +330,24 @@ var sendMove = function(){
+                return;
+        }
+
+-       api("action", {
+-               type: "move",
+-               direction: moveDir
+-       });
++               api("action", {
++                       type: "move",
++                       direction: moveDir
++               });
++               if (keysDown[17]) {
++                       api("action", {
++                               type: "move",
++                               direction: moveDir
++                       });
++                       api("action", {
++                               type: "move",
++                               direction: moveDir
++                       });
++                       api("action", {
++                               type: "move",
++                               direction: moveDir
++                       });
++               }
+ }
+
+ var clearGrid = function(){
+@@ -1413,4 +1427,4 @@ var animate = function(){
+
+        lastAnimationTime = time;
+        renderer.render(gameContainer);
+-}
+\ No newline at end of file
++}
