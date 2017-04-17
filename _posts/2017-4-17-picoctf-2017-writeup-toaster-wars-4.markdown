@@ -23,7 +23,10 @@ then lets you jump to the final level straight from the first one.
 
 In order to exploit this on the server, I used a slightly modified client that lets me hold down the
 <kbd>ctrl</kbd> key to perform the amount of moves I need to jump to the last level from the first one.
-A diff of the original client to my modified client is available [here](https://github.com/TechShroom/TechShroom.github.io/blob/master/picoctf2017/client.diff).
+A diff of the original client to my modified client is available [here](#client-diff).
 
 It takes a few tries to beat the race condition, but in my experience it takes no longer than 5 minutes to
 get one run that jumps you straight to the last room, netting you the flag.
+
+### <a name="client-diff">client.diff</a>
+{% gist 82ea450cc0de3303bef85e66dbaff873 %}
