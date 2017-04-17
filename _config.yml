@@ -15,3 +15,5 @@ include:
 - _stylesheets
 permalink: /:categories/:year/:month/:day/:title/
 markdown: kramdown
+gems:
+- jekyll-gist
