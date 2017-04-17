@@ -5,7 +5,7 @@ title: PicoCTF 2017/Writeup - TW_GR_E4_STW (Toaster Wars 4)
 
 This was a 200 point web exploitation problem.
 
-This is a sequel to the 3 previous Toaster War game, and shares much of the same code.
+This is a sequel to the 3 previous Toaster War games, and shares much of the same code.
 There is a toaster character, which is the player, and some enemies to fight.
 On the final floor, there is a flag item, like on the other games.
 
